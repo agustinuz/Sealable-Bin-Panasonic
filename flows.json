@@ -7748,7 +7748,7 @@
         "type": "comment",
         "z": "312beed678edb499",
         "name": "List IP",
-        "info": "list IP address trimming\nIP Scanner : 192.168.250.101\n\nIP  adam 1 : 192.168.250.20\nIP  scale 1 : 192.168.250.21\nIP  HMI 1 : 192.168.250.22\n\nIP  adam 2 : 192.168.250.30\nIP  scale 2 : 192.168.250.31\nIP  HMI 2 : 192.168.250.32",
+        "info": "list IP address trimming\nIP Scanner local : 192.168.4.1\nip Scanner server : 10.89.46.100/23\n\nIP  adam 1 : 192.168.4.101\nIP  scale 1 : 192.168.4.102\nIP  HMI 1 : 192.168.4.10\n\nIP  adam 2 : 192.168.4.111\nIP  scale 2 : 192.168.4.112\nIP  HMI 2 : 192.168.4.11",
         "x": 350,
         "y": 60,
         "wires": []
