@@ -300,20 +300,14 @@
             "7aef73de2fefe530",
             "6221d812ea1c2213",
             "414f9374773c9df9",
-            "eff41110f3191ec9",
-            "3f326efea1088375",
-            "b93a47cd1ef26c05",
             "4b2ee3418dce45f9",
             "40b08e62c7029273",
-            "88052e52896048aa",
-            "2102ed11fc9768fc",
-            "a4c3e83f4467e4c9",
-            "17c4bc846e84cc56"
+            "88052e52896048aa"
         ],
         "x": 134,
-        "y": 879,
+        "y": 759,
         "w": 832,
-        "h": 602
+        "h": 502
     },
     {
         "id": "f679ddeb253df5ee",
@@ -354,8 +348,8 @@
             "c6c68e7333dfa3dd",
             "8fd0eb36a95a5699"
         ],
-        "x": 154,
-        "y": 1579,
+        "x": 134,
+        "y": 1299,
         "w": 862,
         "h": 582
     },
@@ -392,10 +386,10 @@
             "5c3a0f2a54950458",
             "9054f88c4f0d15f6"
         ],
-        "x": 114,
-        "y": 379,
+        "x": 134,
+        "y": 279,
         "w": 812,
-        "h": 482
+        "h": 442
     },
     {
         "id": "e601bc9bb5625b9c",
@@ -457,7 +451,7 @@
             "88c7b56d7e9905b1"
         ],
         "x": 154,
-        "y": 2239,
+        "y": 2439,
         "w": 492,
         "h": 662
     },
@@ -511,12 +505,13 @@
             "8b35947c72262223",
             "b053c3b543ec3de9",
             "aac06d19b2f70850",
-            "c0e930c505d6fc7e"
+            "c0e930c505d6fc7e",
+            "417c5bc9c19c04d0"
         ],
-        "x": 714,
-        "y": 2239,
+        "x": 154,
+        "y": 1919,
         "w": 952,
-        "h": 242
+        "h": 282
     },
     {
         "id": "af19ccee6f6cf48d",
@@ -686,44 +681,14 @@
     {
         "id": "bc63c8855e529c68",
         "type": "modbus-client",
-        "name": "ADAM MOLDING",
+        "name": "ADAM",
         "clienttype": "tcp",
         "bufferCommands": true,
         "stateLogEnabled": false,
         "queueLogEnabled": false,
         "failureLogEnabled": true,
-        "tcpHost": "192.168.250.20",
+        "tcpHost": "192.168.4.10",
         "tcpPort": "5020",
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": "9600",
-        "serialDatabits": "8",
-        "serialStopbits": "1",
-        "serialParity": "none",
-        "serialConnectionDelay": "100",
-        "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": 1,
-        "commandDelay": 1,
-        "clientTimeout": 1000,
-        "reconnectOnTimeout": true,
-        "reconnectTimeout": 2000,
-        "parallelUnitIdsAllowed": true,
-        "showErrors": false,
-        "showWarnings": true,
-        "showLogs": true
-    },
-    {
-        "id": "f1491cc7a168cbcf",
-        "type": "modbus-client",
-        "name": "Weighing molding",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": false,
-        "queueLogEnabled": false,
-        "failureLogEnabled": true,
-        "tcpHost": "192.168.250.21",
-        "tcpPort": "502",
         "tcpType": "DEFAULT",
         "serialPort": "/dev/ttyUSB",
         "serialType": "RTU-BUFFERD",
@@ -894,39 +859,9 @@
         "collapse": false
     },
     {
-        "id": "a1f5ca78a22d2396",
-        "type": "modbus-client",
-        "name": "ADAM TRIMMING 01",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": false,
-        "queueLogEnabled": false,
-        "failureLogEnabled": true,
-        "tcpHost": "192.168.4.101",
-        "tcpPort": "5020",
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": "9600",
-        "serialDatabits": "8",
-        "serialStopbits": "1",
-        "serialParity": "none",
-        "serialConnectionDelay": "100",
-        "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": 1,
-        "commandDelay": 1,
-        "clientTimeout": 1000,
-        "reconnectOnTimeout": true,
-        "reconnectTimeout": 2000,
-        "parallelUnitIdsAllowed": true,
-        "showErrors": false,
-        "showWarnings": true,
-        "showLogs": true
-    },
-    {
         "id": "d54c4290b0e47d9b",
         "type": "modbus-client",
-        "name": "Scale Trimming 01",
+        "name": "WEIGHING CONTROLLER",
         "clienttype": "tcp",
         "bufferCommands": true,
         "stateLogEnabled": false,
@@ -1006,13 +941,13 @@
     {
         "id": "9252bc6edaf3d4dd",
         "type": "modbus-client",
-        "name": "HMI MOLDING",
+        "name": "HMI",
         "clienttype": "tcp",
         "bufferCommands": true,
         "stateLogEnabled": false,
         "queueLogEnabled": false,
         "failureLogEnabled": true,
-        "tcpHost": "192.168.250.22",
+        "tcpHost": "192.168.4.101",
         "tcpPort": "502",
         "tcpType": "DEFAULT",
         "serialPort": "/dev/ttyUSB",
@@ -1108,126 +1043,6 @@
         "out": "char",
         "addchar": "",
         "responsetimeout": "10000"
-    },
-    {
-        "id": "e0d9f3907dbb5d8b",
-        "type": "modbus-client",
-        "name": "HMI TRIMMING 01",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": false,
-        "queueLogEnabled": false,
-        "failureLogEnabled": true,
-        "tcpHost": "192.168.4.10",
-        "tcpPort": 502,
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": 9600,
-        "serialDatabits": 8,
-        "serialStopbits": 1,
-        "serialParity": "none",
-        "serialConnectionDelay": 100,
-        "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": 1,
-        "commandDelay": 1,
-        "clientTimeout": 1000,
-        "reconnectOnTimeout": true,
-        "reconnectTimeout": 2000,
-        "parallelUnitIdsAllowed": true,
-        "showErrors": false,
-        "showWarnings": true,
-        "showLogs": true
-    },
-    {
-        "id": "5889a20ab2f7c927",
-        "type": "modbus-client",
-        "name": "HMI TRIMMING 02",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": false,
-        "queueLogEnabled": false,
-        "failureLogEnabled": true,
-        "tcpHost": "192.168.4.11",
-        "tcpPort": 502,
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": 9600,
-        "serialDatabits": 8,
-        "serialStopbits": 1,
-        "serialParity": "none",
-        "serialConnectionDelay": 100,
-        "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": 1,
-        "commandDelay": 1,
-        "clientTimeout": 1000,
-        "reconnectOnTimeout": true,
-        "reconnectTimeout": 2000,
-        "parallelUnitIdsAllowed": true,
-        "showErrors": false,
-        "showWarnings": true,
-        "showLogs": true
-    },
-    {
-        "id": "0bbba36ad0793dab",
-        "type": "modbus-client",
-        "name": "ADAM TRIMMING 02",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": false,
-        "queueLogEnabled": false,
-        "failureLogEnabled": true,
-        "tcpHost": "192.168.4.111",
-        "tcpPort": "5020",
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": 9600,
-        "serialDatabits": 8,
-        "serialStopbits": 1,
-        "serialParity": "none",
-        "serialConnectionDelay": 100,
-        "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": 1,
-        "commandDelay": 1,
-        "clientTimeout": 1000,
-        "reconnectOnTimeout": true,
-        "reconnectTimeout": 2000,
-        "parallelUnitIdsAllowed": true,
-        "showErrors": false,
-        "showWarnings": true,
-        "showLogs": true
-    },
-    {
-        "id": "d75a30a7d0c5ad8c",
-        "type": "modbus-client",
-        "name": "Scale Trimming 02",
-        "clienttype": "tcp",
-        "bufferCommands": true,
-        "stateLogEnabled": false,
-        "queueLogEnabled": false,
-        "failureLogEnabled": true,
-        "tcpHost": "192.168.4.112",
-        "tcpPort": 502,
-        "tcpType": "DEFAULT",
-        "serialPort": "/dev/ttyUSB",
-        "serialType": "RTU-BUFFERD",
-        "serialBaudrate": 9600,
-        "serialDatabits": 8,
-        "serialStopbits": 1,
-        "serialParity": "none",
-        "serialConnectionDelay": 100,
-        "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": 1,
-        "commandDelay": 1,
-        "clientTimeout": 1000,
-        "reconnectOnTimeout": true,
-        "reconnectTimeout": 2000,
-        "parallelUnitIdsAllowed": true,
-        "showErrors": false,
-        "showWarnings": true,
-        "showLogs": true
     },
     {
         "id": "dc80dff14c4ec29e",
@@ -3833,32 +3648,6 @@
         "wires": []
     },
     {
-        "id": "3939e56dd0c42277",
-        "type": "link in",
-        "z": "0462e33f314d8e3f",
-        "g": "ab807aa998310442",
-        "name": "Instruction",
-        "links": [
-            "1a79f585d7fe1a1c",
-            "a4238f77fef6a011",
-            "80f7391914f61b53",
-            "8c1d18d6a4dc25ad",
-            "8d816a39164f42e2",
-            "551c0c7d0f5af0e7",
-            "20002259e0c5b21f",
-            "8245268dc7d4a58a",
-            "b98ba8df95ca141d",
-            "da99bfb2e78f7bbd"
-        ],
-        "x": 1855,
-        "y": 1100,
-        "wires": [
-            [
-                "c78691c79b687112"
-            ]
-        ]
-    },
-    {
         "id": "68ae0d37b2b19928",
         "type": "serial in",
         "z": "0462e33f314d8e3f",
@@ -4201,6 +3990,31 @@
         "wires": []
     },
     {
+        "id": "3939e56dd0c42277",
+        "type": "link in",
+        "z": "0462e33f314d8e3f",
+        "g": "ab807aa998310442",
+        "name": "Instruction",
+        "links": [
+            "1a79f585d7fe1a1c",
+            "20002259e0c5b21f",
+            "551c0c7d0f5af0e7",
+            "80f7391914f61b53",
+            "8245268dc7d4a58a",
+            "8c1d18d6a4dc25ad",
+            "8d816a39164f42e2",
+            "a4238f77fef6a011",
+            "b98ba8df95ca141d"
+        ],
+        "x": 1855,
+        "y": 1100,
+        "wires": [
+            [
+                "c78691c79b687112"
+            ]
+        ]
+    },
+    {
         "id": "dfbcf8efa7109812",
         "type": "inject",
         "z": "312beed678edb499",
@@ -4237,7 +4051,7 @@
         "z": "312beed678edb499",
         "g": "e601bc9bb5625b9c",
         "name": "Setting",
-        "func": "flow.set(\"urlReadStatus\", \"http://192.168.250.101:5000/api/Bin/check\");\nflow.set(\"urlSendWeight\", \"http://192.168.250.101:5000/api/Bin/Transaction\");\nflow.set(\"knownWeight\", 10);\nflow.set(\"urlRealTimeWeight\", \"http://192.168.250.101:5000/api/Bin\");\nflow.set(\"maximumLoad\",100);\nflow.set(\"sequenceTop\", 0);\nflow.set(\"sequenceBottom\", 0);\nflow.set(\"closedoor\", 0);\nflow.set(\"prevData\", 0.0);\nflow.set(\"lastBadgeNumber\", \"\");\nflow.set(\"lastFromBin\", \"\");\nflow.set(\"resetBin\",0);\nmsg.payload = flow.get(\"knownWeight\")\nreturn msg;",
+        "func": "flow.set(\"urlReadStatus\", \"http://192.168.4.1:5000/api/Bin/check\");\nflow.set(\"urlSendWeight\", \"http://192.168.4.1:5000/api/Bin/Transaction\");\nflow.set(\"knownWeight\", 10);\nflow.set(\"urlRealTimeWeight\", \"http://192.168.4.1:5000/api/Bin\");\nflow.set(\"maximumLoad\",100);\nflow.set(\"sequenceTop\", 0);\nflow.set(\"sequenceBottom\", 0);\nflow.set(\"closedoor\", 0);\nflow.set(\"prevData\", 0.0);\nflow.set(\"lastBadgeNumber\", \"\");\nflow.set(\"lastFromBin\", \"\");\nflow.set(\"resetBin\",0);\nmsg.payload = flow.get(\"knownWeight\")\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -4268,8 +4082,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 230,
-        "y": 420,
+        "x": 250,
+        "y": 380,
         "wires": [
             [
                 "b764c606b4f87e10",
@@ -4289,8 +4103,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 410,
-        "y": 460,
+        "x": 430,
+        "y": 400,
         "wires": [
             [
                 "8797117af2d676c8"
@@ -4354,7 +4168,7 @@
         "finalize": "",
         "libs": [],
         "x": 300,
-        "y": 940,
+        "y": 820,
         "wires": [
             [
                 "f765e230bf3dc973"
@@ -4374,8 +4188,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 750,
-        "y": 460,
+        "x": 770,
+        "y": 400,
         "wires": [
             [
                 "d8774468f213af31"
@@ -4402,7 +4216,7 @@
         "finalize": "",
         "libs": [],
         "x": 310,
-        "y": 1020,
+        "y": 900,
         "wires": [
             [
                 "9d15f437e0260cb7"
@@ -4425,7 +4239,7 @@
         "finalize": "",
         "libs": [],
         "x": 310,
-        "y": 1120,
+        "y": 1000,
         "wires": [
             [
                 "38588869449057fe"
@@ -4449,7 +4263,7 @@
         "finalize": "",
         "libs": [],
         "x": 310,
-        "y": 1260,
+        "y": 1140,
         "wires": [
             [
                 "3551cd8aeffbba89"
@@ -4469,7 +4283,7 @@
         "finalize": "",
         "libs": [],
         "x": 680,
-        "y": 1200,
+        "y": 1080,
         "wires": [
             [
                 "d7cca88b8d134f83"
@@ -4492,8 +4306,8 @@
             "aeeb1166e9cea285",
             "41908ebb60a89444"
         ],
-        "x": 885,
-        "y": 440,
+        "x": 905,
+        "y": 320,
         "wires": []
     },
     {
@@ -4507,7 +4321,7 @@
             "d13665c6f28c2219"
         ],
         "x": 175,
-        "y": 940,
+        "y": 820,
         "wires": [
             [
                 "de09e19d9f30ddea",
@@ -4531,8 +4345,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 330,
-        "y": 1620,
+        "x": 310,
+        "y": 1340,
         "wires": [
             [
                 "24fe347b5855f67f"
@@ -4551,8 +4365,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 1700,
+        "x": 320,
+        "y": 1420,
         "wires": [
             [
                 "9b17a60d0af0b65f"
@@ -4577,8 +4391,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 1800,
+        "x": 320,
+        "y": 1520,
         "wires": [
             [
                 "b26211ecaaec5436"
@@ -4606,8 +4420,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 2080,
+        "x": 320,
+        "y": 1800,
         "wires": [
             [
                 "6c736e80998e4453",
@@ -4627,8 +4441,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 700,
-        "y": 2060,
+        "x": 680,
+        "y": 1780,
         "wires": [
             [
                 "42884be6b443eb62"
@@ -4651,8 +4465,8 @@
             "d8774468f213af31",
             "bc40a30e925e9c1c"
         ],
-        "x": 195,
-        "y": 1620,
+        "x": 175,
+        "y": 1340,
         "wires": [
             [
                 "94c02aea2a431b57",
@@ -4676,8 +4490,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 1900,
+        "x": 320,
+        "y": 1620,
         "wires": [
             [
                 "e073a522705716c9"
@@ -4702,8 +4516,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 340,
-        "y": 1980,
+        "x": 320,
+        "y": 1700,
         "wires": [
             [
                 "72a5bc4f94c0cf16"
@@ -4724,7 +4538,7 @@
             "179f43862b0dab1f"
         ],
         "x": 465,
-        "y": 1100,
+        "y": 980,
         "wires": []
     },
     {
@@ -4736,8 +4550,8 @@
         "links": [
             "179f43862b0dab1f"
         ],
-        "x": 505,
-        "y": 1680,
+        "x": 485,
+        "y": 1400,
         "wires": []
     },
     {
@@ -4747,8 +4561,8 @@
         "g": "f679ddeb253df5ee",
         "name": "Instruction Bottom 20",
         "links": [],
-        "x": 505,
-        "y": 1760,
+        "x": 485,
+        "y": 1480,
         "wires": []
     },
     {
@@ -4760,8 +4574,8 @@
         "links": [
             "179f43862b0dab1f"
         ],
-        "x": 505,
-        "y": 1880,
+        "x": 485,
+        "y": 1600,
         "wires": []
     },
     {
@@ -4773,8 +4587,8 @@
         "links": [
             "179f43862b0dab1f"
         ],
-        "x": 505,
-        "y": 1960,
+        "x": 485,
+        "y": 1680,
         "wires": []
     },
     {
@@ -4787,7 +4601,7 @@
             "179f43862b0dab1f"
         ],
         "x": 915,
-        "y": 1280,
+        "y": 1160,
         "wires": []
     },
     {
@@ -4799,8 +4613,8 @@
         "links": [
             "179f43862b0dab1f"
         ],
-        "x": 975,
-        "y": 2060,
+        "x": 955,
+        "y": 1780,
         "wires": []
     },
     {
@@ -4828,14 +4642,15 @@
         "z": "312beed678edb499",
         "g": "1893100caf69839f",
         "name": "Real time weight",
-        "func": "\nvar data = {\n    payload : \n    {\n        \"binName\" : flow.get(\"computerName\"),\n        \"weight\" : flow.get(\"dataKg\"),\n        \"hostname\" : \"192.168.250.20:1880\"\n    },\n    url : flow.get(\"urlRealTimeWeight\")\n}\nreturn data;",
+        "func": "\nvar data = {\n    payload : \n    {\n        \"binName\" : flow.get(\"computerName\"),\n        \"weight\" : flow.get(\"dataKg\"),\n        \"hostname\" : \"192.168.4.10:1880\"\n    },\n    url : flow.get(\"urlRealTimeWeight\")\n}\nreturn data;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 430,
-        "y": 420,
+        "x": 450,
+        "y": 320,
         "wires": [
             [
                 "907d4e1bc9628d6a"
@@ -4940,7 +4755,7 @@
         "drop": false,
         "outputs": 1,
         "x": 880,
-        "y": 1200,
+        "y": 1080,
         "wires": [
             [
                 "e35a127f774d264a"
@@ -4964,8 +4779,8 @@
         "randomUnits": "seconds",
         "drop": false,
         "outputs": 1,
-        "x": 860,
-        "y": 2060,
+        "x": 840,
+        "y": 1780,
         "wires": [
             [
                 "36bc34952a025abd"
@@ -4989,8 +4804,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 590,
-        "y": 460,
+        "x": 610,
+        "y": 400,
         "wires": [
             [
                 "833012b4187f61ac"
@@ -5015,7 +4830,7 @@
         "senderr": false,
         "headers": [],
         "x": 530,
-        "y": 1260,
+        "y": 1140,
         "wires": [
             [
                 "22e395ba92adf304"
@@ -5036,8 +4851,8 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 530,
-        "y": 2100,
+        "x": 510,
+        "y": 1820,
         "wires": [
             [
                 "2f3445664fa9622b"
@@ -5061,8 +4876,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 630,
-        "y": 420,
+        "x": 650,
+        "y": 320,
         "wires": [
             []
         ]
@@ -5079,7 +4894,7 @@
         "dataType": "Coil",
         "adr": "16",
         "quantity": "1",
-        "server": "a1f5ca78a22d2396",
+        "server": "bc63c8855e529c68",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -5103,7 +4918,7 @@
         "dataType": "Coil",
         "adr": "22",
         "quantity": "1",
-        "server": "a1f5ca78a22d2396",
+        "server": "bc63c8855e529c68",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -5127,7 +4942,7 @@
         "dataType": "Coil",
         "adr": "18",
         "quantity": "1",
-        "server": "a1f5ca78a22d2396",
+        "server": "bc63c8855e529c68",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -5151,7 +4966,7 @@
         "dataType": "Coil",
         "adr": "19",
         "quantity": "1",
-        "server": "a1f5ca78a22d2396",
+        "server": "bc63c8855e529c68",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -5228,7 +5043,7 @@
             "62780a3bced94616"
         ],
         "x": 485,
-        "y": 920,
+        "y": 800,
         "wires": []
     },
     {
@@ -5243,7 +5058,7 @@
         "dataType": "Coil",
         "adr": "20",
         "quantity": "1",
-        "server": "a1f5ca78a22d2396",
+        "server": "bc63c8855e529c68",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -5287,7 +5102,7 @@
         "dataType": "Coil",
         "adr": "21",
         "quantity": "1",
-        "server": "a1f5ca78a22d2396",
+        "server": "bc63c8855e529c68",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -5327,7 +5142,7 @@
             "62780a3bced94616"
         ],
         "x": 575,
-        "y": 1020,
+        "y": 900,
         "wires": []
     },
     {
@@ -5341,7 +5156,7 @@
             "ac453f5203e5dfad"
         ],
         "x": 825,
-        "y": 1140,
+        "y": 1020,
         "wires": []
     },
     {
@@ -5356,8 +5171,8 @@
             "8f237033d5477bbb",
             "dfa33de96d5a047f"
         ],
-        "x": 505,
-        "y": 1620,
+        "x": 485,
+        "y": 1340,
         "wires": []
     },
     {
@@ -5370,8 +5185,8 @@
         "links": [
             "dfa33de96d5a047f"
         ],
-        "x": 565,
-        "y": 1700,
+        "x": 545,
+        "y": 1420,
         "wires": []
     },
     {
@@ -5384,8 +5199,8 @@
         "links": [
             "dfa33de96d5a047f"
         ],
-        "x": 545,
-        "y": 1780,
+        "x": 525,
+        "y": 1500,
         "wires": []
     },
     {
@@ -5398,8 +5213,8 @@
         "links": [
             "dfa33de96d5a047f"
         ],
-        "x": 565,
-        "y": 1900,
+        "x": 545,
+        "y": 1620,
         "wires": []
     },
     {
@@ -5412,8 +5227,8 @@
         "links": [
             "ac453f5203e5dfad"
         ],
-        "x": 815,
-        "y": 2000,
+        "x": 795,
+        "y": 1720,
         "wires": []
     },
     {
@@ -5435,7 +5250,7 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "bc63c8855e529c68",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
@@ -5453,7 +5268,7 @@
         "id": "6bb839529a2ca90b",
         "type": "modbus-read",
         "z": "312beed678edb499",
-        "name": "DI-1 Sensor Top",
+        "name": "DI-1 Sensor Bottom",
         "topic": "",
         "showStatusActivities": false,
         "logIOActivities": false,
@@ -5468,12 +5283,12 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "a1f5ca78a22d2396",
+        "server": "bc63c8855e529c68",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
-        "x": 1320,
+        "x": 1310,
         "y": 940,
         "wires": [
             [
@@ -5536,8 +5351,9 @@
         "type": "function",
         "z": "312beed678edb499",
         "name": "Mapping",
-        "func": "var msg1;\nvar maxLoad = flow.get(\"maximumLoad\") || 0;\nvar dataKg = flow.get(\"dataKg\")|| 0;\nmsg1 = {payload:(( dataKg /maxLoad) * 12).toFixed(2) };\nreturn msg1;",
+        "func": "var msg1;\nvar maxLoad = flow.get(\"maximumLoad\") || 0;\nvar dataKg = flow.get(\"dataKg\")|| 0;\nmsg1 = {payload:(( dataKg /maxLoad) * 100).toFixed(2) };\nreturn msg1;",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
@@ -5690,8 +5506,8 @@
             "12910a0de3e8d446",
             "810b30aeb103ee4e"
         ],
-        "x": 885,
-        "y": 480,
+        "x": 905,
+        "y": 360,
         "wires": []
     },
     {
@@ -5729,7 +5545,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 310,
-        "y": 2520,
+        "y": 2720,
         "wires": [
             [
                 "60c96a154c4abcca"
@@ -5750,7 +5566,7 @@
         "format": "<font size=\"5\">{{msg.payload}}</font>",
         "layout": "row-left",
         "x": 550,
-        "y": 2860,
+        "y": 3060,
         "wires": []
     },
     {
@@ -5774,7 +5590,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 260,
-        "y": 2480,
+        "y": 2680,
         "wires": [
             [
                 "08d441ec284ef1fc"
@@ -5805,7 +5621,7 @@
         "seg1": "70%",
         "seg2": "85%",
         "x": 530,
-        "y": 2620,
+        "y": 2820,
         "wires": []
     },
     {
@@ -5823,7 +5639,7 @@
             "72a5bc4f94c0cf16"
         ],
         "x": 295,
-        "y": 2860,
+        "y": 3060,
         "wires": [
             [
                 "ab5273c0e4c7dd42"
@@ -5843,7 +5659,7 @@
         "finalize": "",
         "libs": [],
         "x": 540,
-        "y": 2520,
+        "y": 2720,
         "wires": [
             []
         ]
@@ -5869,7 +5685,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 250,
-        "y": 2440,
+        "y": 2640,
         "wires": [
             [
                 "118e97e90b7f3ba0"
@@ -5897,7 +5713,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 240,
-        "y": 2400,
+        "y": 2600,
         "wires": [
             [
                 "9bd7d2910432ddfb"
@@ -5917,7 +5733,7 @@
         "finalize": "",
         "libs": [],
         "x": 540,
-        "y": 2400,
+        "y": 2600,
         "wires": [
             []
         ]
@@ -5935,7 +5751,7 @@
         "finalize": "",
         "libs": [],
         "x": 540,
-        "y": 2440,
+        "y": 2640,
         "wires": [
             []
         ]
@@ -5953,7 +5769,7 @@
         "finalize": "",
         "libs": [],
         "x": 540,
-        "y": 2480,
+        "y": 2680,
         "wires": [
             []
         ]
@@ -5971,7 +5787,7 @@
         "finalize": "",
         "libs": [],
         "x": 540,
-        "y": 2320,
+        "y": 2520,
         "wires": [
             []
         ]
@@ -5989,7 +5805,7 @@
         "finalize": "",
         "libs": [],
         "x": 540,
-        "y": 2360,
+        "y": 2560,
         "wires": [
             []
         ]
@@ -6007,7 +5823,7 @@
         "finalize": "",
         "libs": [],
         "x": 540,
-        "y": 2560,
+        "y": 2760,
         "wires": [
             []
         ]
@@ -6025,7 +5841,7 @@
         "finalize": "",
         "libs": [],
         "x": 540,
-        "y": 2280,
+        "y": 2480,
         "wires": [
             []
         ]
@@ -6044,7 +5860,7 @@
         "format": "<font size=5\">{{msg.payload}}</font>",
         "layout": "col-center",
         "x": 540,
-        "y": 2800,
+        "y": 3000,
         "wires": []
     },
     {
@@ -6068,7 +5884,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 250,
-        "y": 2360,
+        "y": 2560,
         "wires": [
             [
                 "6bd55cf3e31c272d"
@@ -6096,7 +5912,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 250,
-        "y": 2320,
+        "y": 2520,
         "wires": [
             [
                 "069206a01e293d5e"
@@ -6124,7 +5940,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 250,
-        "y": 2560,
+        "y": 2760,
         "wires": [
             [
                 "b2855b017a39d55b"
@@ -6152,7 +5968,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 230,
-        "y": 2280,
+        "y": 2480,
         "wires": [
             [
                 "76b221faaa6d3102"
@@ -6173,7 +5989,7 @@
         "format": "<font size=\"50\">{{msg.payload}}  Kg </font>",
         "layout": "col-center",
         "x": 540,
-        "y": 2680,
+        "y": 2880,
         "wires": []
     },
     {
@@ -6186,7 +6002,7 @@
             "0e2fd748257e9dbb"
         ],
         "x": 295,
-        "y": 2620,
+        "y": 2820,
         "wires": [
             [
                 "a8c4aadf9e9ff1b5"
@@ -6203,7 +6019,7 @@
             "5bbcc7751f61760a"
         ],
         "x": 295,
-        "y": 2680,
+        "y": 2880,
         "wires": [
             [
                 "eb8b11e5d37cd2a1"
@@ -6220,7 +6036,7 @@
             "0ba936a3f40697df"
         ],
         "x": 295,
-        "y": 2740,
+        "y": 2940,
         "wires": [
             []
         ]
@@ -6235,7 +6051,7 @@
             "714693350e0d3077"
         ],
         "x": 295,
-        "y": 2800,
+        "y": 3000,
         "wires": [
             [
                 "264d3a2494b902d4"
@@ -6262,7 +6078,7 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
@@ -6295,7 +6111,7 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
@@ -6328,7 +6144,7 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
@@ -6361,7 +6177,7 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "bc63c8855e529c68",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
@@ -6395,7 +6211,7 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
@@ -6428,7 +6244,7 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "d54c4290b0e47d9b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
@@ -6461,7 +6277,7 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
@@ -6487,7 +6303,7 @@
         "dataType": "HoldingRegister",
         "adr": "5",
         "quantity": "1",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -6511,7 +6327,7 @@
         "dataType": "HoldingRegister",
         "adr": "1",
         "quantity": "1",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -6535,7 +6351,7 @@
         "dataType": "Coil",
         "adr": "0",
         "quantity": "1",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -6560,7 +6376,7 @@
         "dataType": "HoldingRegister",
         "adr": "0",
         "quantity": "1",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -6584,7 +6400,7 @@
         "dataType": "HoldingRegister",
         "adr": "2",
         "quantity": "1",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -6608,7 +6424,7 @@
         "dataType": "Coil",
         "adr": "1",
         "quantity": "1",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -6632,7 +6448,7 @@
         "dataType": "Coil",
         "adr": "2",
         "quantity": "1",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -6656,7 +6472,7 @@
         "dataType": "Coil",
         "adr": "3",
         "quantity": "1",
-        "server": "a1f5ca78a22d2396",
+        "server": "9252bc6edaf3d4dd",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -6680,7 +6496,7 @@
         "dataType": "Coil",
         "adr": "4",
         "quantity": "1",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -6815,7 +6631,7 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
@@ -6857,7 +6673,7 @@
             "656f6257212e326a"
         ],
         "x": 485,
-        "y": 1040,
+        "y": 920,
         "wires": []
     },
     {
@@ -6871,7 +6687,7 @@
             "656f6257212e326a"
         ],
         "x": 465,
-        "y": 1140,
+        "y": 1020,
         "wires": []
     },
     {
@@ -6884,8 +6700,8 @@
         "links": [
             "656f6257212e326a"
         ],
-        "x": 505,
-        "y": 1720,
+        "x": 485,
+        "y": 1440,
         "wires": []
     },
     {
@@ -6898,8 +6714,8 @@
         "links": [
             "656f6257212e326a"
         ],
-        "x": 505,
-        "y": 1800,
+        "x": 485,
+        "y": 1520,
         "wires": []
     },
     {
@@ -6912,8 +6728,8 @@
         "links": [
             "656f6257212e326a"
         ],
-        "x": 505,
-        "y": 1920,
+        "x": 485,
+        "y": 1640,
         "wires": []
     },
     {
@@ -6926,8 +6742,8 @@
         "links": [
             "656f6257212e326a"
         ],
-        "x": 505,
-        "y": 2000,
+        "x": 485,
+        "y": 1720,
         "wires": []
     },
     {
@@ -6992,7 +6808,7 @@
             "656f6257212e326a"
         ],
         "x": 845,
-        "y": 1320,
+        "y": 1200,
         "wires": []
     },
     {
@@ -7005,8 +6821,8 @@
         "links": [
             "656f6257212e326a"
         ],
-        "x": 815,
-        "y": 2120,
+        "x": 795,
+        "y": 1840,
         "wires": []
     },
     {
@@ -7038,7 +6854,7 @@
         "dataType": "Coil",
         "adr": "5",
         "quantity": "1",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -7096,8 +6912,8 @@
             "a3522cebc27e9f1e",
             "c0e930c505d6fc7e"
         ],
-        "x": 885,
-        "y": 540,
+        "x": 905,
+        "y": 420,
         "wires": []
     },
     {
@@ -7113,7 +6929,7 @@
         "finalize": "",
         "libs": [],
         "x": 340,
-        "y": 1200,
+        "y": 1080,
         "wires": [
             [
                 "414f9374773c9df9"
@@ -7131,60 +6947,8 @@
             "656f6257212e326a"
         ],
         "x": 535,
-        "y": 1200,
+        "y": 1080,
         "wires": []
-    },
-    {
-        "id": "eff41110f3191ec9",
-        "type": "http in",
-        "z": "312beed678edb499",
-        "g": "582509ea705ef884",
-        "name": "",
-        "url": "/verifikasi",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 290,
-        "y": 1380,
-        "wires": [
-            [
-                "b93a47cd1ef26c05"
-            ]
-        ]
-    },
-    {
-        "id": "3f326efea1088375",
-        "type": "http response",
-        "z": "312beed678edb499",
-        "g": "582509ea705ef884",
-        "name": "",
-        "statusCode": "200",
-        "headers": {
-            "content-type": "application/json"
-        },
-        "x": 640,
-        "y": 1380,
-        "wires": []
-    },
-    {
-        "id": "b93a47cd1ef26c05",
-        "type": "function",
-        "z": "312beed678edb499",
-        "g": "582509ea705ef884",
-        "name": "function 1",
-        "func": "var sequence = flow.get(\"sequenceTop\")\n\nvar sequencebottom = flow.get(\"sequenceBottom\");\nif (sequence==30 || sequencebottom==50)\n{\n    flow.set(\"verifikasi\", Number(msg.payload.verifikasi));\n}\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 480,
-        "y": 1380,
-        "wires": [
-            [
-                "3f326efea1088375"
-            ]
-        ]
     },
     {
         "id": "4b2ee3418dce45f9",
@@ -7199,7 +6963,7 @@
         "finalize": "",
         "libs": [],
         "x": 310,
-        "y": 1320,
+        "y": 1200,
         "wires": [
             [
                 "40b08e62c7029273"
@@ -7228,7 +6992,7 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
@@ -7270,7 +7034,7 @@
             "a516da82d52c97a6"
         ],
         "x": 475,
-        "y": 1320,
+        "y": 1200,
         "wires": []
     },
     {
@@ -7285,7 +7049,7 @@
         "dataType": "Coil",
         "adr": "6",
         "quantity": "1",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
@@ -7382,8 +7146,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 680,
-        "y": 1920,
+        "x": 660,
+        "y": 1640,
         "wires": []
     },
     {
@@ -7406,13 +7170,13 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
-        "x": 870,
-        "y": 2440,
+        "x": 310,
+        "y": 2160,
         "wires": [
             [
                 "4486f5d991079178"
@@ -7432,8 +7196,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1130,
-        "y": 2440,
+        "x": 570,
+        "y": 2120,
         "wires": [
             []
         ]
@@ -7451,13 +7215,13 @@
         "dataType": "Coil",
         "adr": "20",
         "quantity": "1",
-        "server": "a1f5ca78a22d2396",
+        "server": "bc63c8855e529c68",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
         "startDelayTime": "",
-        "x": 1520,
-        "y": 2400,
+        "x": 960,
+        "y": 2080,
         "wires": [
             [],
             []
@@ -7483,13 +7247,13 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
-        "x": 840,
-        "y": 2400,
+        "x": 300,
+        "y": 2100,
         "wires": [
             [],
             []
@@ -7507,8 +7271,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1130,
-        "y": 2400,
+        "x": 570,
+        "y": 2080,
         "wires": [
             []
         ]
@@ -7526,13 +7290,13 @@
         "dataType": "Coil",
         "adr": "18",
         "quantity": "1",
-        "server": "a1f5ca78a22d2396",
+        "server": "bc63c8855e529c68",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
         "startDelayTime": "",
-        "x": 1510,
-        "y": 2360,
+        "x": 950,
+        "y": 2040,
         "wires": [
             [],
             []
@@ -7558,13 +7322,13 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
-        "x": 860,
-        "y": 2360,
+        "x": 300,
+        "y": 2040,
         "wires": [
             [
                 "708aa85378082c8a"
@@ -7584,8 +7348,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1130,
-        "y": 2360,
+        "x": 570,
+        "y": 2040,
         "wires": [
             []
         ]
@@ -7603,13 +7367,13 @@
         "dataType": "Coil",
         "adr": "22",
         "quantity": "1",
-        "server": "a1f5ca78a22d2396",
+        "server": "bc63c8855e529c68",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
         "startDelayTime": "",
-        "x": 1520,
-        "y": 2320,
+        "x": 960,
+        "y": 2000,
         "wires": [
             [],
             []
@@ -7635,13 +7399,13 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
-        "x": 870,
-        "y": 2320,
+        "x": 310,
+        "y": 2000,
         "wires": [
             [
                 "1805910603c333c5"
@@ -7661,8 +7425,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1130,
-        "y": 2320,
+        "x": 570,
+        "y": 2000,
         "wires": [
             [
                 "8b35947c72262223"
@@ -7682,13 +7446,13 @@
         "dataType": "Coil",
         "adr": "16",
         "quantity": "1",
-        "server": "a1f5ca78a22d2396",
+        "server": "bc63c8855e529c68",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
         "startDelayTime": "",
-        "x": 1510,
-        "y": 2280,
+        "x": 950,
+        "y": 1960,
         "wires": [
             [],
             []
@@ -7714,13 +7478,13 @@
         "delayOnStart": false,
         "enableDeformedMessages": false,
         "startDelayTime": "",
-        "server": "e0d9f3907dbb5d8b",
+        "server": "9252bc6edaf3d4dd",
         "useIOFile": false,
         "ioFile": "",
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
-        "x": 860,
-        "y": 2280,
+        "x": 300,
+        "y": 1960,
         "wires": [
             [
                 "2f2f9fa50fd143d1"
@@ -7740,8 +7504,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1130,
-        "y": 2280,
+        "x": 570,
+        "y": 1960,
         "wires": [
             [
                 "b053c3b543ec3de9"
@@ -7758,8 +7522,8 @@
         "links": [
             "c7603ae07f27d38e"
         ],
-        "x": 495,
-        "y": 1840,
+        "x": 475,
+        "y": 1560,
         "wires": []
     },
     {
@@ -7773,7 +7537,7 @@
             "a516da82d52c97a6"
         ],
         "x": 425,
-        "y": 1340,
+        "y": 1220,
         "wires": []
     },
     {
@@ -7796,6 +7560,7 @@
         "id": "417c5bc9c19c04d0",
         "type": "modbus-write",
         "z": "312beed678edb499",
+        "g": "7e4ccf3550ed7fa6",
         "name": "DO-3 Yellow Lamp Manual",
         "showStatusActivities": false,
         "showErrors": false,
@@ -7804,13 +7569,13 @@
         "dataType": "Coil",
         "adr": "19",
         "quantity": "1",
-        "server": "a1f5ca78a22d2396",
+        "server": "bc63c8855e529c68",
         "emptyMsgOnFail": false,
         "keepMsgProperties": false,
         "delayOnStart": false,
         "startDelayTime": "",
-        "x": 1526.015625,
-        "y": 2443.273193359375,
+        "x": 960,
+        "y": 2140,
         "wires": [
             [],
             []
@@ -7825,8 +7590,8 @@
         "links": [
             "0e02701911a10ad9"
         ],
-        "x": 1275,
-        "y": 2360,
+        "x": 715,
+        "y": 2040,
         "wires": [
             [
                 "0de27916efa72163"
@@ -7842,8 +7607,8 @@
         "links": [
             "85889e1595586613"
         ],
-        "x": 1275,
-        "y": 2440,
+        "x": 715,
+        "y": 2120,
         "wires": [
             [
                 "417c5bc9c19c04d0"
@@ -7855,61 +7620,9 @@
         "type": "comment",
         "z": "312beed678edb499",
         "name": "List IP",
-        "info": "list IP address trimming\nIP Scanner local : 192.168.4.1\nip Scanner server : 10.89.46.100/23\n\nIP  adam 1 : 192.168.4.101\nIP  scale 1 : 192.168.4.102\nIP  HMI 1 : 192.168.4.10\n\nIP  adam 2 : 192.168.4.111\nIP  scale 2 : 192.168.4.112\nIP  HMI 2 : 192.168.4.11",
+        "info": "list IP address trimming\nIP Scanner local : 192.168.4.1\nip Scanner server : 10.89.46.100/23\n\nIP  adam 1 : 192.168.4.10\nIP  scale 1 : 192.168.4.102\nIP  HMI 1 : 192.168.4.101\n\nIP  adam 2 : 192.168.4.11\nIP  scale 2 : 192.168.4.112\nIP  HMI 2 : 192.168.4.111",
         "x": 350,
         "y": 60,
-        "wires": []
-    },
-    {
-        "id": "2102ed11fc9768fc",
-        "type": "http in",
-        "z": "312beed678edb499",
-        "g": "582509ea705ef884",
-        "name": "",
-        "url": "/verifikasi-check",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 300,
-        "y": 1440,
-        "wires": [
-            [
-                "a4c3e83f4467e4c9"
-            ]
-        ]
-    },
-    {
-        "id": "a4c3e83f4467e4c9",
-        "type": "function",
-        "z": "312beed678edb499",
-        "g": "582509ea705ef884",
-        "name": "get_verfikasi",
-        "func": "var verifikasi_check = flow.get(\"verifikasi\") || 0;\n\nmsg.payload = verifikasi_check;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 510,
-        "y": 1440,
-        "wires": [
-            [
-                "17c4bc846e84cc56"
-            ]
-        ]
-    },
-    {
-        "id": "17c4bc846e84cc56",
-        "type": "http response",
-        "z": "312beed678edb499",
-        "g": "582509ea705ef884",
-        "name": "",
-        "statusCode": "200",
-        "headers": {
-            "content-type": "application/json"
-        },
-        "x": 700,
-        "y": 1440,
         "wires": []
     },
     {
@@ -7922,8 +7635,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 230,
-        "y": 600,
+        "x": 250,
+        "y": 480,
         "wires": [
             [
                 "de989085d714994f"
@@ -7940,8 +7653,8 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 560,
-        "y": 600,
+        "x": 580,
+        "y": 480,
         "wires": []
     },
     {
@@ -7956,8 +7669,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 400,
-        "y": 600,
+        "x": 420,
+        "y": 480,
         "wires": [
             [
                 "93b96efc0a2074ab"
@@ -7974,8 +7687,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 240,
-        "y": 660,
+        "x": 260,
+        "y": 540,
         "wires": [
             [
                 "e3bdb4b55f57e305"
@@ -7994,8 +7707,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
-        "y": 660,
+        "x": 470,
+        "y": 540,
         "wires": [
             [
                 "fa8cec61683ca4d5"
@@ -8012,8 +7725,8 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 620,
-        "y": 660,
+        "x": 640,
+        "y": 540,
         "wires": []
     },
     {
@@ -8026,8 +7739,8 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "",
-        "x": 210,
-        "y": 760,
+        "x": 230,
+        "y": 640,
         "wires": [
             [
                 "b13109e75e8e48c3"
@@ -8040,15 +7753,15 @@
         "z": "312beed678edb499",
         "g": "1893100caf69839f",
         "name": "resetBin",
-        "func": "var msg1,msg2,msg3;\n\nmsg = {payload: \"1\"};\nmsg1 = {payload: \"0\"};\nmsg2 = {payload: false};\nmsg3 = {payload: false};\nflow.set(\"isRunning\",false);\nflow.set(\"sequenceTop\",0);\nflow.set(\"lastBadgeNumber\",\"\")\nflow.set(\"lastFromBin\",\"\")\n\nreturn [msg,msg1,msg2,msg3];",
+        "func": "var msg1,msg2,msg3;\n\nmsg = {payload: \"1\"};\nmsg1 = {payload: \"\"};\nmsg2 = {payload: false};\nmsg3 = {payload: false};\nflow.set(\"isRunning\",false);\nflow.set(\"sequenceTop\",0);\nflow.set(\"lastBadgeNumber\",\"\")\nflow.set(\"lastFromBin\",\"\")\n\nreturn [msg,msg1,msg2,msg3];",
         "outputs": 4,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 380,
-        "y": 760,
+        "x": 400,
+        "y": 640,
         "wires": [
             [
                 "44626ea6e6df9b14"
@@ -8074,8 +7787,8 @@
         "headers": {
             "content-type": "application/json"
         },
-        "x": 560,
-        "y": 700,
+        "x": 620,
+        "y": 600,
         "wires": []
     },
     {
@@ -8085,11 +7798,10 @@
         "g": "1893100caf69839f",
         "name": "",
         "links": [
-            "3939e56dd0c42277",
             "656f6257212e326a"
         ],
-        "x": 515,
-        "y": 740,
+        "x": 575,
+        "y": 640,
         "wires": []
     },
     {
@@ -8102,8 +7814,8 @@
         "links": [
             "62780a3bced94616"
         ],
-        "x": 515,
-        "y": 780,
+        "x": 625,
+        "y": 660,
         "wires": []
     },
     {
@@ -8116,8 +7828,8 @@
         "links": [
             "ac453f5203e5dfad"
         ],
-        "x": 515,
-        "y": 820,
+        "x": 565,
+        "y": 680,
         "wires": []
     }
 ]
