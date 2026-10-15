@@ -3,11 +3,18 @@
         "id": "0462e33f314d8e3f",
         "type": "tab",
         "label": "Flow 1",
-        "disabled": true,
+        "disabled": false,
         "info": ""
     },
     {
         "id": "312beed678edb499",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "9a8c2e0178543307",
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
@@ -179,7 +186,8 @@
             "07245e95ad5f0a31",
             "4e6483a36b6fa739",
             "3dbfe34a4cdc8479",
-            "4e3c22e076b4d774"
+            "4e3c22e076b4d774",
+            "694454e64e1c2e62"
         ],
         "x": 34,
         "y": 2519,
@@ -209,9 +217,9 @@
             "00daf246fc0025fc"
         ],
         "x": 114,
-        "y": 259,
+        "y": 239,
         "w": 1092,
-        "h": 202
+        "h": 222
     },
     {
         "id": "0c4ad27e3b0ade3b",
@@ -241,8 +249,7 @@
             "241433fcc9b33303",
             "4d496d53718c3d49",
             "7db4d0308e5cd959",
-            "43cdb454467d4a9e",
-            "56932c843806cd26"
+            "43cdb454467d4a9e"
         ],
         "x": 34,
         "y": 1599,
@@ -531,9 +538,251 @@
             "09b331044a569f29"
         ],
         "x": 1134,
-        "y": 1899,
+        "y": 1959,
         "w": 712,
         "h": 302
+    },
+    {
+        "id": "1d5a640ec1e48556",
+        "type": "group",
+        "z": "9a8c2e0178543307",
+        "name": "Sequence Top",
+        "style": {
+            "stroke": "#000000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "bd7d35c8643c3148",
+            "1130a0ab8999b5b1",
+            "1bce11078270f702",
+            "364090a6966017d9",
+            "4eea4a2495adbec2",
+            "71eeb89db01fb33b",
+            "c6d24301b5a8b787",
+            "1fffae1c8af023b3",
+            "7d8832a6a564276d",
+            "8d3ba9e8cc4a0247",
+            "0b50769eaec27cad",
+            "be6736307258e536",
+            "a5a4fea15005244e",
+            "9c992809a0de96b0",
+            "1b76ebb287e8efb6",
+            "ac314052c179fb54",
+            "901fab5a94a587f4",
+            "be47cf9d9680e9b3",
+            "1067aab766ca54a2",
+            "c26aa91dc7cb6fe2",
+            "26e9cb6ed0dc1e81"
+        ],
+        "x": 134,
+        "y": 759,
+        "w": 832,
+        "h": 502
+    },
+    {
+        "id": "330868a749ec4f85",
+        "type": "group",
+        "z": "9a8c2e0178543307",
+        "name": "Sequence Bottom",
+        "style": {
+            "stroke": "#000000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "e2350874783a3fae",
+            "4a068130d0dead32",
+            "9980a53656201aa8",
+            "d1be89449b01697a",
+            "047888e3572104e0",
+            "5530906d2a5eb8c2",
+            "7c60fa1ce9f27f7c",
+            "3bcb9e915e816066",
+            "6298ce1ecc87f551",
+            "72cd98c5a88c333f",
+            "21badbdc6d99ddea",
+            "d9871ed5083ba3c6",
+            "41261dc3cd1ad67c",
+            "0610b92d148d8e19",
+            "16214110ed657f7b",
+            "42537927c9339960",
+            "4daa9d8abb022481",
+            "0cd13b5cf72e8a0b",
+            "caf0bf3d7304baa9",
+            "1af63e2a04dd8cad",
+            "eb8a8ed3bb2ddcf9",
+            "ac0079c8771bdbaa",
+            "95fd0f9ad1db212c",
+            "54f565e80a220370",
+            "9a13f2eebaf6f40c",
+            "8203723e6ea34135",
+            "9a2061a6368e0610"
+        ],
+        "x": 134,
+        "y": 1299,
+        "w": 862,
+        "h": 582
+    },
+    {
+        "id": "9e8f089b5f33e7f4",
+        "type": "group",
+        "z": "9a8c2e0178543307",
+        "name": "API Monitoring",
+        "style": {
+            "stroke": "#000000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "d59bafbf66668ea2",
+            "1f5e37d0eacec1b7",
+            "d7fab29eab69c746",
+            "f034307b97cbf210",
+            "bda1b3e206c95b04",
+            "f8b39711a4354b21",
+            "70a615dfc850a32d",
+            "f1b144d253d6f95f",
+            "de01b304b98a129f",
+            "26da2f5e8eef9999",
+            "41e551d5698d25d6",
+            "fd515a5796d2f3f6",
+            "b87f90e7fcd534b5",
+            "b90c576fa2327a86",
+            "d58a1150262070c9",
+            "4a326bb29e094691",
+            "7f03e1717e3498fc",
+            "d5f3780eec96a6a5",
+            "e4b285590b54821f",
+            "6332e4dff647030e",
+            "fd085413a5888960"
+        ],
+        "x": 134,
+        "y": 279,
+        "w": 812,
+        "h": 442
+    },
+    {
+        "id": "04f34999dd325d4a",
+        "type": "group",
+        "z": "9a8c2e0178543307",
+        "name": "Setting Device Name",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "color": "#000000"
+        },
+        "nodes": [
+            "7f801a62aeb60e91",
+            "3a8e4aff0ea9b8ec",
+            "b3a8ab4f7b25f9d0",
+            "48757fa052545f1b",
+            "39eeb5111afa0722"
+        ],
+        "x": 134,
+        "y": 111.5,
+        "w": 672,
+        "h": 149.5
+    },
+    {
+        "id": "07c3905e22b3764e",
+        "type": "group",
+        "z": "9a8c2e0178543307",
+        "name": "UI Node Red",
+        "style": {
+            "stroke": "#000000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "420285e5be8de6bf",
+            "c09419fcc5ba01db",
+            "0773c736f89a9590",
+            "50b37a50dbf14871",
+            "87a246385a393fbc",
+            "ebc01ed1ea77ab8b",
+            "9e09cbad57279224",
+            "c054cefdb9a7e873",
+            "2df56578effeea0e",
+            "7634889be7d1cf40",
+            "6d37b456b912b923",
+            "e48e9b28e6741772",
+            "861faf195bed9097",
+            "74b2c316562e1908",
+            "d72c25e136de390a",
+            "d2f637a5e5cfb2df",
+            "45ddf3c90952ea8d",
+            "3ea0a937cd872168",
+            "7a0315768e5105f8",
+            "5ff575a8409ab47f",
+            "9b3bd9ed6801f4d9",
+            "f148ca8d3d19868f",
+            "7a907cc60405b33c",
+            "88d0788cb857acad",
+            "6e4c4b8d1a0db7ac"
+        ],
+        "x": 154,
+        "y": 2439,
+        "w": 492,
+        "h": 662
+    },
+    {
+        "id": "92ac1c31f4fcd2ca",
+        "type": "group",
+        "z": "9a8c2e0178543307",
+        "name": "Not connected yet",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f055af7451625f04",
+            "deb770d04f98c6b5",
+            "6b28dd612fadf61c",
+            "77d0969569d33041",
+            "c6628076407ec024",
+            "344f539b3e0958a8",
+            "b66c378db53188eb",
+            "ea15c5a6647f47fc",
+            "2e2913bae38a7edb",
+            "12ea01027fcbf388",
+            "e1bb5c86ea1cc3e5"
+        ],
+        "x": 1174,
+        "y": 1679,
+        "w": 532,
+        "h": 442
+    },
+    {
+        "id": "fd65e6887229c19a",
+        "type": "group",
+        "z": "9a8c2e0178543307",
+        "name": "Manual Button",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "751e57929a85dca0",
+            "d6d70621e62ed07b",
+            "f99b2e7bd0316046",
+            "88dedd4ea8d6c8bb",
+            "8aa191ab42e5eaa6",
+            "62e69b92a07afdd5",
+            "3f4d1b9b08272530",
+            "830617e48013247b",
+            "7bcb92b52d859ff5",
+            "64e2e6e0c44b4424",
+            "5b1df856c582983d",
+            "7d8907ce444db571",
+            "47ccfbc16c73d314",
+            "ce3778f955eb7384",
+            "08b762371375061a",
+            "a9f672cdb0e394b2",
+            "1e9082d0416691f2"
+        ],
+        "x": 154,
+        "y": 1919,
+        "w": 952,
+        "h": 282
     },
     {
         "id": "af19ccee6f6cf48d",
@@ -1065,6 +1314,266 @@
         "out": "char",
         "addchar": "",
         "responsetimeout": "10000"
+    },
+    {
+        "id": "db86bc337fea95de",
+        "type": "modbus-client",
+        "name": "ADAM",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.250.20",
+        "tcpPort": "5020",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "a53f40d1009d427e",
+        "type": "modbus-client",
+        "name": "Weighing",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.250.21",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "8b275467d9ffe105",
+        "type": "modbus-client",
+        "name": "HMI",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.250.22",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "2146d1abf61121ad",
+        "type": "modbus-client",
+        "name": "ADAM",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.250.20",
+        "tcpPort": "5020",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "0b2eddef971589c1",
+        "type": "modbus-client",
+        "name": "ADAM",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.250.20",
+        "tcpPort": "5020",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "377989b7a5f9b95b",
+        "type": "modbus-client",
+        "name": "HMI",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.250.22",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "285c574e5a0ccb53",
+        "type": "modbus-client",
+        "name": "WEIGHING CONTROLLER",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.250.21",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "f06985bcc16e0b72",
+        "type": "ui_group",
+        "name": "Status ",
+        "tab": "af19ccee6f6cf48d",
+        "order": 2,
+        "disp": true,
+        "width": "9",
+        "collapse": false
+    },
+    {
+        "id": "e3170d98ec996c04",
+        "type": "ui_group",
+        "name": "Instruction",
+        "tab": "af19ccee6f6cf48d",
+        "order": 3,
+        "disp": true,
+        "width": "18",
+        "collapse": false
+    },
+    {
+        "id": "e6f4c635d5f8bf29",
+        "type": "ui_group",
+        "name": "WEIGHING SCALE",
+        "tab": "95222d0620033ee1",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "426b8f5acc80cb2c",
+        "type": "ui_group",
+        "name": "Weight",
+        "tab": "af19ccee6f6cf48d",
+        "order": 1,
+        "disp": true,
+        "width": "9",
+        "collapse": false
+    },
+    {
+        "id": "ed175527504968e4",
+        "type": "ui_group",
+        "name": "Manual Button",
+        "tab": "95222d0620033ee1",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
     },
     {
         "id": "dc80dff14c4ec29e",
@@ -3340,11 +3849,12 @@
         "g": "a15362f921bb89dc",
         "name": "",
         "filename": "/home/pi/data.log",
+        "filenameType": "str",
         "appendNewline": false,
         "createDir": true,
         "overwriteFile": "true",
         "encoding": "none",
-        "x": 950,
+        "x": 980,
         "y": 380,
         "wires": [
             []
@@ -3525,7 +4035,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 250,
+        "x": 140,
         "y": 540,
         "wires": [
             [
@@ -3552,8 +4062,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 290,
-        "y": 740,
+        "x": 180,
+        "y": 640,
         "wires": [
             []
         ]
@@ -3620,7 +4130,9 @@
         "z": "0462e33f314d8e3f",
         "g": "ab807aa998310442",
         "name": "",
-        "links": [],
+        "links": [
+            "3939e56dd0c42277"
+        ],
         "x": 2175,
         "y": 1240,
         "wires": []
@@ -3642,32 +4154,12 @@
         "y": 1940,
         "wires": [
             [
-                "43cdb454467d4a9e",
-                "56932c843806cd26"
+                "43cdb454467d4a9e"
             ],
             [
-                "43cdb454467d4a9e",
-                "56932c843806cd26"
+                "43cdb454467d4a9e"
             ]
         ]
-    },
-    {
-        "id": "56932c843806cd26",
-        "type": "debug",
-        "z": "0462e33f314d8e3f",
-        "g": "0c4ad27e3b0ade3b",
-        "name": "ResetBin",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 420,
-        "y": 2000,
-        "wires": []
     },
     {
         "id": "68ae0d37b2b19928",
@@ -3815,7 +4307,7 @@
         "z": "0462e33f314d8e3f",
         "g": "0e6f8303854b44e7",
         "name": "RESET",
-        "pin": "27",
+        "pin": "13",
         "set": true,
         "level": "0",
         "freq": "",
@@ -3997,8 +4489,8 @@
         "shape": "circle",
         "showGlow": true,
         "name": "Status Server",
-        "x": 900,
-        "y": 300,
+        "x": 860,
+        "y": 280,
         "wires": []
     },
     {
@@ -4026,7 +4518,8 @@
             "8c1d18d6a4dc25ad",
             "8d816a39164f42e2",
             "a4238f77fef6a011",
-            "b98ba8df95ca141d"
+            "b98ba8df95ca141d",
+            "75dcd96768817a6b"
         ],
         "x": 1855,
         "y": 1100,
@@ -4035,6 +4528,17 @@
                 "c78691c79b687112"
             ]
         ]
+    },
+    {
+        "id": "694454e64e1c2e62",
+        "type": "comment",
+        "z": "0462e33f314d8e3f",
+        "g": "0e6f8303854b44e7",
+        "name": "note for reset button",
+        "info": "GPIO27 -13\n13\ndigital output\nchecklist initialise pin state\ninitial level of pin - low (0)",
+        "x": 610,
+        "y": 2580,
+        "wires": []
     },
     {
         "id": "dfbcf8efa7109812",
@@ -4105,7 +4609,7 @@
         "payload": "",
         "payloadType": "date",
         "x": 250,
-        "y": 380,
+        "y": 360,
         "wires": [
             []
         ]
@@ -7774,7 +8278,7 @@
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
         "x": 1280,
-        "y": 2000,
+        "y": 2060,
         "wires": [
             [],
             []
@@ -7806,7 +8310,7 @@
         "useIOForPayload": false,
         "emptyMsgOnFail": false,
         "x": 1280,
-        "y": 2120,
+        "y": 2180,
         "wires": [
             [
                 "42c77420c7b03e3a"
@@ -7828,7 +8332,7 @@
         "finalize": "",
         "libs": [],
         "x": 1520,
-        "y": 2000,
+        "y": 2060,
         "wires": [
             [
                 "df250ae6473f0c0e"
@@ -7849,7 +8353,7 @@
         "finalize": "",
         "libs": [],
         "x": 1520,
-        "y": 2140,
+        "y": 2200,
         "wires": [
             [
                 "805dc2c8c897fd8b",
@@ -7876,7 +8380,7 @@
         "delayOnStart": false,
         "startDelayTime": "",
         "x": 1750,
-        "y": 2000,
+        "y": 2060,
         "wires": [
             [],
             []
@@ -7901,7 +8405,7 @@
         "delayOnStart": false,
         "startDelayTime": "",
         "x": 1750,
-        "y": 2100,
+        "y": 2160,
         "wires": [
             [],
             []
@@ -7922,7 +8426,7 @@
         "delayOnStart": false,
         "startDelayTime": "",
         "x": 1730,
-        "y": 2160,
+        "y": 2220,
         "wires": [
             [],
             []
@@ -7950,8 +8454,8 @@
         "topic": "",
         "payload": "1",
         "payloadType": "num",
-        "x": 1370,
-        "y": 1940,
+        "x": 1270,
+        "y": 2000,
         "wires": [
             [
                 "c027897166171abc",
@@ -7973,7 +8477,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1600,
-        "y": 1940,
+        "y": 2000,
         "wires": []
     },
     {
@@ -7990,7 +8494,7 @@
         "finalize": "",
         "libs": [],
         "x": 1520,
-        "y": 2060,
+        "y": 2120,
         "wires": [
             [
                 "df250ae6473f0c0e"
@@ -8016,11 +8520,3805 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1360,
-        "y": 2060,
+        "y": 2120,
         "wires": [
             [
                 "c9e6c7430deecf77"
             ]
         ]
+    },
+    {
+        "id": "7f801a62aeb60e91",
+        "type": "inject",
+        "z": "9a8c2e0178543307",
+        "g": "04f34999dd325d4a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 220,
+        "wires": [
+            [
+                "3a8e4aff0ea9b8ec",
+                "b3a8ab4f7b25f9d0"
+            ]
+        ]
+    },
+    {
+        "id": "3a8e4aff0ea9b8ec",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "04f34999dd325d4a",
+        "name": "Setting",
+        "func": "flow.set(\"urlReadStatus\", \"http://192.168.250.100:5000/api/Bin/check\");\nflow.set(\"urlSendWeight\", \"http://192.168.250.100:5000/api/Bin/Transaction\");\nflow.set(\"knownWeight\", 10);\nflow.set(\"urlRealTimeWeight\", \"http://192.168.250.100:5000/api/Bin\");\nflow.set(\"maximumLoad\",16);\nflow.set(\"sequenceTop\", 0);\nflow.set(\"sequenceBottom\", 0);\nflow.set(\"closedoor\", 0);\nflow.set(\"prevData\", 0.0);\nflow.set(\"lastBadgeNumber\", \"\");\nflow.set(\"lastFromBin\", \"\");\nflow.set(\"resetBin\",0);\nmsg.payload = flow.get(\"knownWeight\")\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d59bafbf66668ea2",
+        "type": "inject",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "Monitor API",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 380,
+        "wires": [
+            [
+                "bda1b3e206c95b04",
+                "1f5e37d0eacec1b7"
+            ]
+        ]
+    },
+    {
+        "id": "1f5e37d0eacec1b7",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "Seq Program",
+        "func": "var parameter = {\n    \"name\" : flow.get(\"computerName\")\n}\n\nmsg = \n{\n    payload : parameter,\n    url : flow.get(\"urlReadStatus\")\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 400,
+        "wires": [
+            [
+                "f8b39711a4354b21"
+            ]
+        ]
+    },
+    {
+        "id": "b3a8ab4f7b25f9d0",
+        "type": "exec",
+        "z": "9a8c2e0178543307",
+        "g": "04f34999dd325d4a",
+        "command": "hostname",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 440,
+        "y": 160,
+        "wires": [
+            [
+                "48757fa052545f1b"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "48757fa052545f1b",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "04f34999dd325d4a",
+        "name": "get hostname",
+        "func": "flow.set(\"computerName\", \"2-B2-006-01\");\nvar msg1 = {payload : flow.get(\"computerName\")}\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 180,
+        "wires": [
+            [
+                "39eeb5111afa0722"
+            ]
+        ]
+    },
+    {
+        "id": "bd7d35c8643c3148",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "Sequence Top 0",
+        "func": "var sequence = flow.get(\"sequenceTop\");\nvar msg1;\nmsg.debug = msg.payload.data == undefined ? null : {\"Seq 0\":msg.payload.data};\nvar isRunning = flow.get(\"isRunning\");\nif (sequence == 0 && msg.payload.data[0].doorstatus == 1 && isRunning)\n{\n    msg1 = {payload:true};//lampgreen,topdoor,buzzer\n    flow.set(\"time1\",Date.now())\n    flow.set(\"sequenceTop\",10);\n    return [msg1,msg];\n}\nif (msg.debug != null)\n    return [false,msg];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 820,
+        "wires": [
+            [
+                "0b50769eaec27cad"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d7fab29eab69c746",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "Check",
+        "func": "var msg1, msg2;\nvar isRunning = flow.get(\"isRunning\");\nvar yellowLamp;\nvar manualLamp = flow.get(\"manualYellowLamp\");\nif (msg.statusCode != 'EHOSTUNREACH') {\n    if (msg.payload.data != undefined && msg.payload.data.length > 0) {\n        flow.set(\"maximumLoad\", msg.payload.data[0].capacity)\n        msg2 = { payload: true };\n        if (manualLamp !== undefined && manualLamp !== null) {\n            yellowLamp = { payload: manualLamp };\n            return [null, msg2, yellowLamp];\n        }\n        if (msg.payload.data[0].doorstatus == 0) {\n            yellowLamp = { payload: true }\n            return [null, msg2, yellowLamp];\n\n        }\n        yellowLamp = { payload: false }\n        flow.set(\"payload\", msg.payload.data[0]);\n        flow.set(\"isRunning\", true);\n        msg1 = { payload: msg.payload }\n        return [msg1, msg2, yellowLamp];\n    }\n}\nelse {\n    msg2 = { payload: false };\n    return [null, null, false]\n}\n\n",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 400,
+        "wires": [
+            [
+                "f034307b97cbf210"
+            ],
+            [
+                "f1b144d253d6f95f"
+            ],
+            [
+                "de01b304b98a129f"
+            ]
+        ]
+    },
+    {
+        "id": "1130a0ab8999b5b1",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "Sequence Top 10",
+        "func": "var msg1,instructionNo;\nvar sequence = flow.get(\"sequenceTop\");\nvar state_Sensor = flow.get(\"topSensor\") ;\nvar isRunning = flow.get(\"isRunning\");\nif (sequence == 10 && msg.payload.data[0].doorstatus == 1 && isRunning)\n{\n    flow.set(\"lastBadgeNumber\",msg.payload.data[0].lastbadgeno)\n    flow.set(\"lastFromBin\",msg.payload.data[0].lastfrombinname)\n    instructionNo = {payload : 1};\n    var time1 = flow.get(\"time1\");\n    var timeout = (Date.now() - time1)/1000\n    if (state_Sensor == 0 && timeout < 30)\n    {\n        flow.set(\"sequenceTop\",20);\n        msg1 = {payload:false};//topdoor\n    }\n    else if (state_Sensor == 1 && timeout < 30)\n    {\n        msg1 = {payload:true};//topdoor\n    }\n    else if (timeout >= 30 && state_Sensor == 1)\n    {\n        instructionNo = { payload: 10 };\n        flow.set(\"sequenceTop\", 100);\n        msg1 = { payload: false };//topdoor\n    }\n\n    return [msg1,instructionNo];\n    \n    \n}\n\n\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 900,
+        "wires": [
+            [
+                "be6736307258e536"
+            ],
+            [
+                "9c992809a0de96b0"
+            ]
+        ]
+    },
+    {
+        "id": "1bce11078270f702",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "Sequence Top 20",
+        "func": "var msg1,instructionNo;\nvar sequence = flow.get(\"sequenceTop\");\nvar state_Sensor = flow.get(\"topSensor\");\nvar isRunning = flow.get(\"isRunning\");\nif (sequence == 20 && msg.payload.data[0].doorstatus == 1)\n{\n    msg1 = {payload:\"Buang sampah dan Tutup pintu . .\"};\n    instructionNo = {payload : 2};\n    if (state_Sensor == 1)\n    {\n        flow.set(\"sequenceTop\",30);\n        msg1 = {payload:\"Lakukan verifikasi pada Scanner Screen\"};\n    }\n    return [msg1,instructionNo]; \n}\n\n\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1000,
+        "wires": [
+            [
+                "c6d24301b5a8b787"
+            ],
+            [
+                "1b76ebb287e8efb6"
+            ]
+        ]
+    },
+    {
+        "id": "364090a6966017d9",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "Sequence Top 40",
+        "func": "var sequence = flow.get(\"sequenceTop\");\nvar prevData = parseFloat(flow.get(\"prevData\")||0.0);\nvar weightCalculation = 0.0;\nvar msg1;\nvar obj;\nvar isRunning = flow.get(\"isRunning\");\nvar computerName = flow.get(\"computerName\")||\"NONE\"\nvar stationName = computerName.substring(0,computerName.length - 3)\n\nif (sequence == 40 && msg.payload.data[0].doorstatus == 1 && isRunning)\n{\n   // weightCalculation = dataKg - prevData; \n    obj = \n    {\n\t\t\"badgeno\": flow.get(\"lastBadgeNumber\"), \n\t\t\"logindate\" :\"\",\n\t\t\"stationname\": stationName,\n\t\t\"frombinname\":flow.get(\"lastFromBin\"),\n\t\t\"tobinname\":computerName,\n\t\t\"weight\": flow.get(\"dataKg\"),\n\t\t\"activity\":\"Dispose\"\n\t}\n\t\n\tmsg1 = \n\t{\n\t    payload:obj,\n\t    url:flow.get(\"urlSendWeight\")\n\t    \n\t};\n\treturn msg1;\n}\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1140,
+        "wires": [
+            [
+                "8d3ba9e8cc4a0247"
+            ]
+        ]
+    },
+    {
+        "id": "4eea4a2495adbec2",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "Verify API",
+        "func": "var data = msg.payload.result;\nvar msg2 = {payload:\"\"};\nvar msg1;\nvar isRunning = flow.get(\"isRunning\");\nvar instructionNo;\nif (data == \"Success\" && isRunning)\n{\n    instructionNo = {payload : 0}\n    msg.debug = {\"Verify API\":data};\n    msg1 ={payload : false} //\"CMD,lampGreen,0\\n\";\n    flow.set(\"sequenceTop\",0);\n    flow.set(\"isRunning\",false);\n    flow.set(\"prevData\",flow.get(\"dataKg\"))\n    flow.set(\"lastBadgeNumber\",\"\")\n    flow.set(\"lastFromBin\",\"\")  \n    flow.set(\"verifikasi\",0) ;\n    flow.set(\"reopen\", 0);\n    return [msg1,msg2,instructionNo];\n}\n",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1080,
+        "wires": [
+            [
+                "a5a4fea15005244e"
+            ],
+            [
+                "7d8832a6a564276d"
+            ],
+            [
+                "ac314052c179fb54"
+            ]
+        ]
+    },
+    {
+        "id": "f034307b97cbf210",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "Check API",
+        "links": [
+            "71eeb89db01fb33b",
+            "5530906d2a5eb8c2"
+        ],
+        "x": 905,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "71eeb89db01fb33b",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "Check API TOP",
+        "links": [
+            "f034307b97cbf210",
+            "6b28dd612fadf61c"
+        ],
+        "x": 175,
+        "y": 820,
+        "wires": [
+            [
+                "bd7d35c8643c3148",
+                "1130a0ab8999b5b1",
+                "1bce11078270f702",
+                "364090a6966017d9",
+                "901fab5a94a587f4",
+                "1067aab766ca54a2"
+            ]
+        ]
+    },
+    {
+        "id": "e2350874783a3fae",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Sequence Bottom 0",
+        "func": "var msg1;\nvar sequence = flow.get(\"sequenceBottom\");\nvar isRunning = flow.get(\"isRunning\");\nif (isRunning && sequence == 0 && msg.payload.data[0].doorstatus == 2)\n{\n    msg1 = { payload: true };//\"CMD,lampGreen,1\\n\",\"CMD,bottomDoor,1\\n\",\"CMD,buzzer,1\\n\"\n    flow.set(\"sequenceBottom\",10);\n    return [msg1];\n}\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1340,
+        "wires": [
+            [
+                "42537927c9339960"
+            ]
+        ]
+    },
+    {
+        "id": "4a068130d0dead32",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Sequence Bottom 10",
+        "func": "var msg1,msg2,instructionNo;\nvar sequence = flow.get(\"sequenceBottom\");\nvar state_Sensor = flow.get(\"bottomSensor\");\nvar isRunning = flow.get(\"isRunning\");\nif (isRunning && sequence == 10 && msg.payload.data[0].doorstatus == 2)\n{\n    flow.set(\"lastBadgeNumber\",msg.payload.data[0].lastbadgeno)\n    flow.set(\"lastFromBin\",msg.payload.data[0].lastfrombinname)\n    msg1 = {payload:\"Buka Penutup Bawah dan Keluarkan Bin\"};\n    instructionNo = {payload : 3};\n    if (state_Sensor == 0)\n    {\n        flow.set(\"sequenceBottom\",20);\n        msg2 = {payload:false};//\"CMD,bottomDoor,0\\n\"\n    }\n    else\n    {\n        msg2 = {payload:true};//\"CMD,bottomDoor,1\\n\"\n    }\n    return [msg1,msg2,instructionNo];\n}\n\n",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1420,
+        "wires": [
+            [
+                "6298ce1ecc87f551"
+            ],
+            [
+                "4daa9d8abb022481"
+            ],
+            [
+                "eb8a8ed3bb2ddcf9"
+            ]
+        ]
+    },
+    {
+        "id": "9980a53656201aa8",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Sequence Bottom 20",
+        "func": "var msg1, msg2, instructionNo,msg3;\nvar sequence = flow.get(\"sequenceBottom\");\nvar state_Sensor = flow.get(\"bottomSensor\");\nvar state_closedoor = flow.get(\"closedoor\");\nvar isRunning = flow.get(\"isRunning\");\nif ( isRunning && sequence == 20 && msg.payload.data[0].doorstatus == 2)\n{\n    \n    msg1 = {payload:\"Tekan tombol Lock, dan buka penutup bawah\"};\n    instructionNo = {payload : 4};\n    if (state_Sensor == 1 && state_closedoor == 1)\n    {\n        flow.set(\"sequenceBottom\",30);\n        msg2 = {payload:true};//\"CMD,bottomDoor,1\\n\"\n        return [msg1, msg2, instructionNo,null];\n    }\n    else if (state_Sensor == 1 && state_closedoor == 0)\n    {\n        const closedoor0 = flow.get('closedoor0') || 0;\n        msg3 = closedoor0 == 0 ? { payload: true } : null;//\"CMD,buttonLock,1\\n\"\n        return [null, null, instructionNo,msg3];\n    }\n\n    \n   \n}\n\n\n\n",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1520,
+        "wires": [
+            [
+                "72cd98c5a88c333f"
+            ],
+            [
+                "0cd13b5cf72e8a0b"
+            ],
+            [
+                "ac0079c8771bdbaa"
+            ],
+            [
+                "9a2061a6368e0610"
+            ]
+        ]
+    },
+    {
+        "id": "d1be89449b01697a",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Sequence Bottom 50",
+        "func": "var sequence = flow.get(\"sequenceBottom\");\nvar dataKg = flow.get(\"dataKg\");\nvar msg1;\nvar obj;\nvar computerName = flow.get(\"computerName\")||\"NONE\"\nvar stationName = computerName.substring(0,computerName.length - 3)\nvar isRunning = flow.get(\"isRunning\");\nvar verifikasi = flow.get(\"verifikasi\") || 0;\nif ( isRunning && sequence == 50 && msg.payload.data[0].doorstatus == 2)\n{\n\tflow.set(\"verifikasi\",0);\n    obj = \n    {\n\t\t\"badgeno\": flow.get(\"lastBadgeNumber\"), \n\t\t\"logindate\" :\"\",\n\t\t\"stationname\": stationName,\n\t\t\"frombinname\":computerName,\n\t\t\"tobinname\":\"\",\n\t\t\"weight\":dataKg || 0,\n\t\t\"activity\":\"Collection\"\n\t\t//result:\"Success\"\n\t}\n\t\n\tmsg1 = \n\t{\n\t    payload:obj,\n\t    url:flow.get(\"urlSendWeight\")\n\t    \n\t};\n\treturn msg1;\n}\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1800,
+        "wires": [
+            [
+                "16214110ed657f7b",
+                "8203723e6ea34135"
+            ]
+        ]
+    },
+    {
+        "id": "047888e3572104e0",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Verify API",
+        "func": "var data = msg.payload.result;\nvar msg2={payload:\"\"};\nvar msg1;\nvar isRunning = flow.get(\"isRunning\");\nvar instructionNo;\nif (data == \"Success\" && isRunning)\n{\n    instructionNo = {payload : 0}\n    msg1 ={payload : false} //\"CMD,lampGreen,0\\n\";\n    flow.set(\"sequenceBottom\",0);\n    flow.set(\"prevData\",0);\n    flow.set(\"lastBadgeNumber\",\"\");\n    flow.set(\"lastFromBin\",\"\");\n    flow.set(\"closedoor\",0);\n    flow.set(\"isRunning\",false);\n    \n    return [msg1,msg2,instructionNo];\n}\n",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 1780,
+        "wires": [
+            [
+                "1af63e2a04dd8cad"
+            ],
+            [
+                "0610b92d148d8e19"
+            ],
+            [
+                "9a13f2eebaf6f40c"
+            ]
+        ]
+    },
+    {
+        "id": "5530906d2a5eb8c2",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Check API Bottom",
+        "links": [
+            "f034307b97cbf210",
+            "77d0969569d33041"
+        ],
+        "x": 175,
+        "y": 1340,
+        "wires": [
+            [
+                "e2350874783a3fae",
+                "4a068130d0dead32",
+                "9980a53656201aa8",
+                "7c60fa1ce9f27f7c",
+                "3bcb9e915e816066",
+                "d1be89449b01697a"
+            ]
+        ]
+    },
+    {
+        "id": "7c60fa1ce9f27f7c",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Sequence Bottom 30",
+        "func": "var msg1,msg2,instructionNo;\nvar sequence = flow.get(\"sequenceBottom\");\nvar state_Sensor = flow.get(\"bottomSensor\");\n\nvar isRunning = flow.get(\"isRunning\");\nif (isRunning && sequence == 30 && msg.payload.data[0].doorstatus == 2)\n{\n    \n    msg1 = {payload:\"Masukkan kembali Bin container\"};\n    instructionNo = {payload : 5};\n    if (state_Sensor == 0 )\n    {\n        flow.set(\"sequenceBottom\",40);\n        msg2 = {payload:false};//\"CMD,bottomDoor,0\\n\"\n    }\n    return [msg1,msg2,instructionNo];\n}\n\n\n\n",
+        "outputs": 3,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1620,
+        "wires": [
+            [
+                "21badbdc6d99ddea"
+            ],
+            [
+                "caf0bf3d7304baa9"
+            ],
+            [
+                "95fd0f9ad1db212c"
+            ]
+        ]
+    },
+    {
+        "id": "3bcb9e915e816066",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Sequence Bottom 40",
+        "func": "var msg1,instructionNo;\nvar sequence = flow.get(\"sequenceBottom\");\nvar state_Sensor = flow.get(\"bottomSensor\");\nvar isRunning = flow.get(\"isRunning\");\nif (isRunning && sequence == 40 && msg.payload.data[0].doorstatus == 2)\n{\n    \n    msg1 = {payload:\"Tutup penutup bawah\"};\n    instructionNo = {payload : 6};\n\n    if (state_Sensor == 1 )\n    {\n        flow.set(\"sequenceBottom\",50);\n    }\n    return [msg1,instructionNo];\n}\n\n\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 1700,
+        "wires": [
+            [
+                "d9871ed5083ba3c6"
+            ],
+            [
+                "54f565e80a220370"
+            ]
+        ]
+    },
+    {
+        "id": "c6d24301b5a8b787",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "Instruction Top 20 Sequence Top 10",
+        "mode": "link",
+        "links": [
+            "87a246385a393fbc"
+        ],
+        "x": 465,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "6298ce1ecc87f551",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Instruction Bottom 10",
+        "links": [
+            "87a246385a393fbc"
+        ],
+        "x": 485,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "72cd98c5a88c333f",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Instruction Bottom 20",
+        "links": [],
+        "x": 485,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "21badbdc6d99ddea",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Instruction Bottom 30",
+        "links": [
+            "87a246385a393fbc"
+        ],
+        "x": 485,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "d9871ed5083ba3c6",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Instruction Bottom 40",
+        "links": [
+            "87a246385a393fbc"
+        ],
+        "x": 485,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "1fffae1c8af023b3",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "Instruction Top 20",
+        "links": [
+            "87a246385a393fbc"
+        ],
+        "x": 915,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "41261dc3cd1ad67c",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "Instruction Bottom 40",
+        "links": [
+            "87a246385a393fbc"
+        ],
+        "x": 955,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "ade6598ada4c0b2e",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "name": "Alarm",
+        "func": "function unsignedToSigned16Bit(number) {\n    return (number << 16) >> 16;\n}\nfunction toSignedNumber(value, bits = 16) {\n    const signBit = 1 << (bits - 1);\n    const fullRange = 1 << bits;\n    value = value & (fullRange - 1); // keep only the lower `bits` bits\n    return (value & signBit) ? value - fullRange : value;\n}\nvar msg1;\nvar checkRedLamp = flow.get(\"ManualRedLamp\");\nvar maxLoad = flow.get(\"maximumLoad\") || 0;\nif (checkRedLamp !== null)\n{\n  msg1 = {payload:true}\n  return msg1;\n}\nif (checkRedLamp == null)\n{\n     if ((toSignedNumber(msg.payload[0] ) / 100) < 0) {\n     msg1 = { payload: false, w: toSignedNumber(msg.payload[0]) / 100 } // \"CMD,lampRed,0\\n\"\n     return msg1;\n} else if ((toSignedNumber(msg.payload[0]) / 100) >= (maxLoad * 0.85))\n  { \n    msg1 = { payload: true, w: toSignedNumber(msg.payload[0]) / 100} // \"CMD,lampRed,1\\n\"\n    return msg1;\n  }\nelse if ((toSignedNumber(msg.payload[0]) / 100) < (maxLoad * 0.85))\n  {\n    msg1 = { payload: false, w: toSignedNumber(msg.payload[0])/100} // \"CMD,lampRed,0\\n\"\n    return msg1;\n  }\n}; ",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 1040,
+        "wires": [
+            [
+                "ae1f0005cb1ccdcb"
+            ]
+        ]
+    },
+    {
+        "id": "bda1b3e206c95b04",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "Real time weight",
+        "func": "\nvar data = {\n    payload : \n    {\n        \"binName\" : flow.get(\"computerName\"),\n        \"weight\" : flow.get(\"dataKg\"),\n        \"hostname\" : \"192.168.250.20:1880\"\n    },\n    url : flow.get(\"urlRealTimeWeight\")\n}\nreturn data;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 320,
+        "wires": [
+            [
+                "70a615dfc850a32d"
+            ]
+        ]
+    },
+    {
+        "id": "f055af7451625f04",
+        "type": "switch",
+        "z": "9a8c2e0178543307",
+        "g": "92ac1c31f4fcd2ca",
+        "name": "switchConnector",
+        "property": "payload.data[0].doorstatus",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1490,
+        "y": 2020,
+        "wires": [
+            [
+                "6b28dd612fadf61c"
+            ],
+            [
+                "77d0969569d33041"
+            ]
+        ]
+    },
+    {
+        "id": "deb770d04f98c6b5",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "92ac1c31f4fcd2ca",
+        "name": "",
+        "func": "\nvar data = msg.payload.trim().split(\";\");\nvar topSensor = (msg.topic==\"manual\" ||true ) ? data[7] : flow.get(\"topSensor\");\nvar bottomSensor = (msg.topic==\"manual\" || true) ? data[8] : flow.get(\"bottomSensor\");\nvar isRunning = flow.get(\"isRunning\");\nvar load = flow.get(\"payload\");\nif (isRunning == undefined || !isRunning)\n    return null;\nif (load == undefined || load == null)\n    return null;\nmsg = {\n    run:isRunning,\n    closeDoor:flow.get(\"closedoor\"),\n    bottomSeq: flow.get(\"sequenceBottom\"),\n    topseq:flow.get(\"sequenceTop\"),\n    payload: {data:[load]},\n    topSensor: parseInt(topSensor),\n    bottomSensor: parseInt(bottomSensor) };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1260,
+        "y": 2020,
+        "wires": [
+            [
+                "f055af7451625f04"
+            ]
+        ]
+    },
+    {
+        "id": "6b28dd612fadf61c",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "92ac1c31f4fcd2ca",
+        "name": "",
+        "links": [
+            "71eeb89db01fb33b"
+        ],
+        "x": 1665,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "77d0969569d33041",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "92ac1c31f4fcd2ca",
+        "name": "",
+        "links": [
+            "5530906d2a5eb8c2"
+        ],
+        "x": 1665,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "7d8832a6a564276d",
+        "type": "delay",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 880,
+        "y": 1080,
+        "wires": [
+            [
+                "1fffae1c8af023b3"
+            ]
+        ]
+    },
+    {
+        "id": "0610b92d148d8e19",
+        "type": "delay",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 840,
+        "y": 1780,
+        "wires": [
+            [
+                "41261dc3cd1ad67c"
+            ]
+        ]
+    },
+    {
+        "id": "f8b39711a4354b21",
+        "type": "http request",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "API",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 610,
+        "y": 400,
+        "wires": [
+            [
+                "d7fab29eab69c746"
+            ]
+        ]
+    },
+    {
+        "id": "8d3ba9e8cc4a0247",
+        "type": "http request",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "API",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 530,
+        "y": 1140,
+        "wires": [
+            [
+                "4eea4a2495adbec2"
+            ]
+        ]
+    },
+    {
+        "id": "16214110ed657f7b",
+        "type": "http request",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "API",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 510,
+        "y": 1820,
+        "wires": [
+            [
+                "047888e3572104e0"
+            ]
+        ]
+    },
+    {
+        "id": "70a615dfc850a32d",
+        "type": "http request",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "API",
+        "method": "PUT",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 650,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e65f17e19624e8b0",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "DO-0 Lock Top",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "16",
+        "quantity": "1",
+        "server": "0b2eddef971589c1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1760,
+        "y": 160,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "88f7c9ed4856ce20",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "DO-6 Lock Bottom",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "22",
+        "quantity": "1",
+        "server": "0b2eddef971589c1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1770,
+        "y": 300,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f47a19f9ad6cf290",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "DO-2 Red Light",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "18",
+        "quantity": "1",
+        "server": "0b2eddef971589c1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1760,
+        "y": 580,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "236cb2abb5a03306",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "DO-3 Yellow Light",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "19",
+        "quantity": "1",
+        "server": "0b2eddef971589c1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1770,
+        "y": 720,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "28f628e358df296c",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "name": "link in DO-1 Lock Bottom",
+        "links": [
+            "4daa9d8abb022481",
+            "0cd13b5cf72e8a0b",
+            "caf0bf3d7304baa9",
+            "42537927c9339960"
+        ],
+        "x": 1565,
+        "y": 340,
+        "wires": [
+            [
+                "88f7c9ed4856ce20",
+                "384161cdae8f17b9"
+            ]
+        ]
+    },
+    {
+        "id": "767a5763f333fab3",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "name": "link in DO-2 Red Light",
+        "links": [
+            "ae1f0005cb1ccdcb"
+        ],
+        "x": 1565,
+        "y": 640,
+        "wires": [
+            [
+                "f47a19f9ad6cf290"
+            ]
+        ]
+    },
+    {
+        "id": "e52e38f79bf5c656",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "name": "link in DO-3 Yellow Light",
+        "links": [
+            "de01b304b98a129f"
+        ],
+        "x": 1565,
+        "y": 780,
+        "wires": [
+            [
+                "236cb2abb5a03306"
+            ]
+        ]
+    },
+    {
+        "id": "0b50769eaec27cad",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "link out 1 Sequence Top 0",
+        "mode": "link",
+        "links": [
+            "3aed535b319f3490",
+            "0c35de878451ad75",
+            "dc344d8a613cc169"
+        ],
+        "x": 485,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "8e51ac0e726612a3",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "DO-4 Green Light",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "20",
+        "quantity": "1",
+        "server": "0b2eddef971589c1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1770,
+        "y": 440,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3aed535b319f3490",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "name": "link in DO-4 Green Light",
+        "links": [
+            "0b50769eaec27cad",
+            "42537927c9339960",
+            "a5a4fea15005244e",
+            "1af63e2a04dd8cad",
+            "fd085413a5888960"
+        ],
+        "x": 1565,
+        "y": 500,
+        "wires": [
+            [
+                "8e51ac0e726612a3"
+            ]
+        ]
+    },
+    {
+        "id": "ec8dc3fe061e4282",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "DO-5 Buzzer",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "21",
+        "quantity": "1",
+        "server": "377989b7a5f9b95b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1730,
+        "y": 1380,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "0c35de878451ad75",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "name": "link in DO-4 Buzzer",
+        "links": [
+            "0b50769eaec27cad",
+            "42537927c9339960"
+        ],
+        "x": 1545,
+        "y": 1380,
+        "wires": [
+            [
+                "ec8dc3fe061e4282"
+            ]
+        ]
+    },
+    {
+        "id": "be6736307258e536",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "link out 4 Sequence Top 10",
+        "mode": "link",
+        "links": [
+            "dc344d8a613cc169"
+        ],
+        "x": 575,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "a5a4fea15005244e",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "link out 5",
+        "mode": "link",
+        "links": [
+            "3aed535b319f3490"
+        ],
+        "x": 825,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "42537927c9339960",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "link out 6",
+        "mode": "link",
+        "links": [
+            "3aed535b319f3490",
+            "0c35de878451ad75",
+            "28f628e358df296c"
+        ],
+        "x": 485,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "4daa9d8abb022481",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "link out 9",
+        "mode": "link",
+        "links": [
+            "28f628e358df296c"
+        ],
+        "x": 545,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "0cd13b5cf72e8a0b",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "link out 10",
+        "mode": "link",
+        "links": [
+            "28f628e358df296c"
+        ],
+        "x": 525,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "caf0bf3d7304baa9",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "link out 11",
+        "mode": "link",
+        "links": [
+            "28f628e358df296c"
+        ],
+        "x": 545,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "1af63e2a04dd8cad",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "link out 12",
+        "mode": "link",
+        "links": [
+            "3aed535b319f3490"
+        ],
+        "x": 795,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "9a413b8d3bfb6c26",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "name": "DI-0 Sensor Top",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "0",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "0b2eddef971589c1",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1320,
+        "y": 840,
+        "wires": [
+            [
+                "c3f965a211f3efb4"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f6c463f51280ce4d",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "name": "DI-1 Sensor Bottom",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "1",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "0b2eddef971589c1",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1310,
+        "y": 940,
+        "wires": [
+            [
+                "2c8cb8379d585b44"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3ac19f2bcf3ac18e",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "name": "Weigh Value",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "1",
+        "quantity": "1",
+        "rate": "100",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "285c574e5a0ccb53",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1330,
+        "y": 1040,
+        "wires": [
+            [
+                "ade6598ada4c0b2e",
+                "522227d76dd2dcb4",
+                "c9a0f0ab9b485060"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ae1f0005cb1ccdcb",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "name": "link out 21",
+        "mode": "link",
+        "links": [
+            "767a5763f333fab3",
+            "08b762371375061a"
+        ],
+        "x": 1615,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "c9a0f0ab9b485060",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "name": "Mapping",
+        "func": "var msg1;\nvar maxLoad = flow.get(\"maximumLoad\") || 0;\nvar dataKg = flow.get(\"dataKg\")|| 0;\nmsg1 = {payload:(( dataKg /maxLoad) * 16).toFixed(2) };\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1500,
+        "y": 1120,
+        "wires": [
+            [
+                "83cbe6e8e9925d89",
+                "bd0e027f711fdd49",
+                "ce5508344acf10d6"
+            ]
+        ]
+    },
+    {
+        "id": "522227d76dd2dcb4",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "name": "flow.dataKg",
+        "func": "function unsignedToSigned16Bit(number) {\n    return (number << 16) >> 16;\n}\nflow.set(\"dataKg\", unsignedToSigned16Bit(msg.payload)/100);\nvar msg1 = { payload: (msg.payload)}\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 1080,
+        "wires": [
+            [
+                "5eb4389384fa03b8",
+                "d99f153717124994"
+            ]
+        ]
+    },
+    {
+        "id": "c3f965a211f3efb4",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "name": "flow.topSensor",
+        "func": "flow.set(\"topSensor\", msg.payload[0]);\nvar msg1 = { payload: msg.payload[0]};\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1520,
+        "y": 840,
+        "wires": [
+            [
+                "dc34152b94d18222"
+            ]
+        ]
+    },
+    {
+        "id": "2c8cb8379d585b44",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "name": "flow.bottomSensor",
+        "func": "flow.set(\"bottomSensor\",msg.payload[0]);\nvar msg1 = { payload: msg.payload[0] };\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1530,
+        "y": 940,
+        "wires": [
+            [
+                "a751aede91af0a38"
+            ]
+        ]
+    },
+    {
+        "id": "c6628076407ec024",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "g": "92ac1c31f4fcd2ca",
+        "name": "Weigh Command",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "22",
+        "quantity": "1",
+        "server": "285c574e5a0ccb53",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1530,
+        "y": 1780,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "344f539b3e0958a8",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "92ac1c31f4fcd2ca",
+        "name": "Int to Bit",
+        "func": "let number = msg.payload;\nlet bitArray = [];\nlet numBits = 16; // Change this for 16-bit, 32-bit, etc.\n\nfor (let i = 0; i < numBits; i++) {\n    // Use (number >> i) & 1 to get the bit value\n    // The result will be 0 or 1 (which are also \"falsy\" and \"truthy\" values)\n    // If you need explicit booleans (true/false):\n    // bitArray.push(!!((number >> i) & 1));\n    // If you need 0/1 integers:\n    bitArray.push((number >> i) & 1);\n}\n\n// If you want the MSB first, you can reverse the array:\n// bitArray.reverse();\n\nmsg.payload = bitArray;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1340,
+        "y": 1780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "83cbe6e8e9925d89",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "f148ca8d3d19868f"
+        ],
+        "x": 1695,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "5eb4389384fa03b8",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "7a907cc60405b33c"
+        ],
+        "x": 1695,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "f1b144d253d6f95f",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "88d0788cb857acad",
+            "c339d06416257b70"
+        ],
+        "x": 905,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "39eeb5111afa0722",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "04f34999dd325d4a",
+        "name": "link out 4",
+        "mode": "link",
+        "links": [
+            "6e4c4b8d1a0db7ac"
+        ],
+        "x": 765,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "420285e5be8de6bf",
+        "type": "ui_button",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "group": "f06985bcc16e0b72",
+        "order": 7,
+        "width": 9,
+        "height": 2,
+        "passthru": false,
+        "label": "<font size=\"50\"> LOCK </font>",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 310,
+        "y": 2720,
+        "wires": [
+            [
+                "ebc01ed1ea77ab8b"
+            ]
+        ]
+    },
+    {
+        "id": "c09419fcc5ba01db",
+        "type": "ui_text",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "group": "e3170d98ec996c04",
+        "order": 1,
+        "width": "18",
+        "height": "2",
+        "name": "Instruction",
+        "label": "",
+        "format": "<font size=\"5\">{{msg.payload}}</font>",
+        "layout": "row-left",
+        "x": 550,
+        "y": 3060,
+        "wires": []
+    },
+    {
+        "id": "0773c736f89a9590",
+        "type": "ui_button",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "group": "e6f4c635d5f8bf29",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "CALIBRATION",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 2680,
+        "wires": [
+            [
+                "6d37b456b912b923"
+            ]
+        ]
+    },
+    {
+        "id": "50b37a50dbf14871",
+        "type": "ui_gauge",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "group": "426b8f5acc80cb2c",
+        "order": 2,
+        "width": "9",
+        "height": "7",
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "70%",
+        "seg2": "85%",
+        "x": 530,
+        "y": 2820,
+        "wires": []
+    },
+    {
+        "id": "87a246385a393fbc",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "Instruction",
+        "links": [
+            "1fffae1c8af023b3",
+            "c6d24301b5a8b787",
+            "6298ce1ecc87f551",
+            "41261dc3cd1ad67c",
+            "21badbdc6d99ddea",
+            "d9871ed5083ba3c6"
+        ],
+        "x": 295,
+        "y": 3060,
+        "wires": [
+            [
+                "c09419fcc5ba01db"
+            ]
+        ]
+    },
+    {
+        "id": "ebc01ed1ea77ab8b",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "func": "if (flow.get(\"sequenceBottom\") == 20)\n{\n    flow.set(\"closedoor\",1);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 2720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9e09cbad57279224",
+        "type": "ui_button",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "group": "ed175527504968e4",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Bottom Door",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 2640,
+        "wires": [
+            [
+                "7634889be7d1cf40"
+            ]
+        ]
+    },
+    {
+        "id": "c054cefdb9a7e873",
+        "type": "ui_button",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "group": "ed175527504968e4",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Top Door",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 240,
+        "y": 2600,
+        "wires": [
+            [
+                "2df56578effeea0e"
+            ]
+        ]
+    },
+    {
+        "id": "2df56578effeea0e",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "func": "if (flow.get(\"topDoor\")!= 0)\n{\n    msg.payload = \"CMD,topDoor,0\\n\"\n    \n}\n\nelse\n{\n    msg.payload = \"CMD,topDoor,1\\n\"\n    \n    \n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 2600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7634889be7d1cf40",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "func": "if (flow.get(\"bottomDoor\")== 0)\n{\n    msg.payload = \"CMD,bottomDoor,1\\n\"\n    'flow.set(\"topDoor\",1);'\n}\n\nelse\n{\n    msg.payload = \"CMD,bottomDoor,0\\n\"\n    'flow.set(\"topDoor\",0);'\n    \n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 2640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d37b456b912b923",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "func": "msg.payload = \"CAL,\" + flow.get(\"knownWeight\").toString()+\"\\n\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 2680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e48e9b28e6741772",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "func": "if (flow.get(\"greenLamp\")!= 0)\n{\n    msg.payload = \"CMD,lampGreen,0\\n\"\n}\nelse\n{\n    msg.payload = \"CMD,lampGreen,1\\n\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 2520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "861faf195bed9097",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "func": "if (flow.get(\"yellowLamp\")== 1)\n{\n    msg.payload = \"CMD,lampYellow,0\\n\"\n}\nelse\n{\n    msg.payload = \"CMD,lampYellow,1\\n\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 2560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "74b2c316562e1908",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "func": "if (flow.get(\"lampRed\")== 1)\n{\n    msg.payload = \"CMD,lampRed,0\\n\"\n}\nelse\n{\n    msg.payload = \"CMD,lampRed,1\\n\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 2760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d72c25e136de390a",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "func": "msg.payload = \"TARE\\n\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 2480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2f637a5e5cfb2df",
+        "type": "ui_text",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "group": "f06985bcc16e0b72",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "BIN NO",
+        "label": "",
+        "format": "<font size=5\">{{msg.payload}}</font>",
+        "layout": "col-center",
+        "x": 540,
+        "y": 3000,
+        "wires": []
+    },
+    {
+        "id": "45ddf3c90952ea8d",
+        "type": "ui_button",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "group": "ed175527504968e4",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Yellow Lamp",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 2560,
+        "wires": [
+            [
+                "861faf195bed9097"
+            ]
+        ]
+    },
+    {
+        "id": "3ea0a937cd872168",
+        "type": "ui_button",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "group": "ed175527504968e4",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Green Lamp",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 2520,
+        "wires": [
+            [
+                "e48e9b28e6741772"
+            ]
+        ]
+    },
+    {
+        "id": "7a0315768e5105f8",
+        "type": "ui_button",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "group": "ed175527504968e4",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Red Lamp",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 2760,
+        "wires": [
+            [
+                "74b2c316562e1908"
+            ]
+        ]
+    },
+    {
+        "id": "5ff575a8409ab47f",
+        "type": "ui_button",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "",
+        "group": "e6f4c635d5f8bf29",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "ZERO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 2480,
+        "wires": [
+            [
+                "d72c25e136de390a"
+            ]
+        ]
+    },
+    {
+        "id": "9b3bd9ed6801f4d9",
+        "type": "ui_text",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "group": "426b8f5acc80cb2c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "WEIGHT",
+        "label": "",
+        "format": "<font size=\"50\">{{msg.payload}}  Kg </font>",
+        "layout": "col-center",
+        "x": 540,
+        "y": 2880,
+        "wires": []
+    },
+    {
+        "id": "f148ca8d3d19868f",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "link in 1",
+        "links": [
+            "83cbe6e8e9925d89"
+        ],
+        "x": 295,
+        "y": 2820,
+        "wires": [
+            [
+                "50b37a50dbf14871"
+            ]
+        ]
+    },
+    {
+        "id": "7a907cc60405b33c",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "link in 2",
+        "links": [
+            "5eb4389384fa03b8"
+        ],
+        "x": 295,
+        "y": 2880,
+        "wires": [
+            [
+                "9b3bd9ed6801f4d9"
+            ]
+        ]
+    },
+    {
+        "id": "88d0788cb857acad",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "link in 3",
+        "links": [
+            "f1b144d253d6f95f"
+        ],
+        "x": 295,
+        "y": 2940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6e4c4b8d1a0db7ac",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "g": "07c3905e22b3764e",
+        "name": "link in 4",
+        "links": [
+            "39eeb5111afa0722"
+        ],
+        "x": 295,
+        "y": 3000,
+        "wires": [
+            [
+                "d2f637a5e5cfb2df"
+            ]
+        ]
+    },
+    {
+        "id": "b66c378db53188eb",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "g": "92ac1c31f4fcd2ca",
+        "name": "HMI Button Zero",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "0",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1320,
+        "y": 1840,
+        "wires": [
+            [
+                "e1bb5c86ea1cc3e5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9c396fe64a499c03",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Button Green Lamp",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "0",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1290,
+        "y": 440,
+        "wires": [
+            [
+                "9429aa774dc8a4da"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "69ff03855a0b814a",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Button Yellow Lamp",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "0",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1290,
+        "y": 720,
+        "wires": [
+            [
+                "4dc048478b87105d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c6ce90545dc42614",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Button Top Door",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "0",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1310,
+        "y": 180,
+        "wires": [
+            [
+                "10ea9c11a1d34e46"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ea15c5a6647f47fc",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "g": "92ac1c31f4fcd2ca",
+        "name": "HMI Button Callibration",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "0",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1340,
+        "y": 1900,
+        "wires": [
+            [
+                "12ea01027fcbf388"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "26c931e1a6f0ba18",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Button Lock",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "5",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1320,
+        "y": 1500,
+        "wires": [
+            [
+                "018f822371742c58"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "184ec071ee77e38f",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Button Red Lamp",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "0",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1300,
+        "y": 580,
+        "wires": [
+            [
+                "928b5e6c6ab8ee4b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "bd0e027f711fdd49",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Gauge",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "5",
+        "quantity": "1",
+        "server": "377989b7a5f9b95b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1750,
+        "y": 1200,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d99f153717124994",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Weight",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "1",
+        "quantity": "1",
+        "server": "377989b7a5f9b95b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1750,
+        "y": 1100,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "52b1bcc69b19e34e",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Status Server",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "0",
+        "quantity": "1",
+        "server": "377989b7a5f9b95b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1750,
+        "y": 1260,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "2e2913bae38a7edb",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "g": "92ac1c31f4fcd2ca",
+        "name": "HMI Bin No",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "0",
+        "quantity": "1",
+        "server": "377989b7a5f9b95b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1530,
+        "y": 1720,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5b9ad1063bc51d38",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Instruction",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "2",
+        "quantity": "1",
+        "server": "377989b7a5f9b95b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1740,
+        "y": 1320,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "dc34152b94d18222",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Top Sensor",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "1",
+        "quantity": "1",
+        "server": "377989b7a5f9b95b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1760,
+        "y": 820,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "a751aede91af0a38",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Bottom Sensor",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "2",
+        "quantity": "1",
+        "server": "377989b7a5f9b95b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1770,
+        "y": 940,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f48a146bb068218c",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Top Door",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "3",
+        "quantity": "1",
+        "server": "377989b7a5f9b95b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1760,
+        "y": 240,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "384161cdae8f17b9",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Bottom Door",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "4",
+        "quantity": "1",
+        "server": "377989b7a5f9b95b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1770,
+        "y": 360,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "9429aa774dc8a4da",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "name": "ArrayTo Bool",
+        "func": "var msg1 = {payload : msg.payload[0]};\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4dc048478b87105d",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "name": "ArrayTo Bool",
+        "func": "var msg1 = {payload : msg.payload[0]};\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "928b5e6c6ab8ee4b",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "name": "ArrayTo Bool",
+        "func": "var msg1 = {payload : msg.payload[0]};\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "10ea9c11a1d34e46",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "name": "ArrayTo Bool",
+        "func": "var msg1 = {payload : msg.payload[0]};\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "12ea01027fcbf388",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "92ac1c31f4fcd2ca",
+        "name": "ArrayTo Bool",
+        "func": "var msg1 = {payload : msg.payload[0]};\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1570,
+        "y": 1900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e1bb5c86ea1cc3e5",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "92ac1c31f4fcd2ca",
+        "name": "ArrayTo Bool",
+        "func": "var msg1 = {payload : msg.payload[0]};\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1570,
+        "y": 1840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e02f2f4b69e3c02c",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Button Bottom Door",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "0",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1290,
+        "y": 300,
+        "wires": [
+            [
+                "3b4999aef62a5c2d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3b4999aef62a5c2d",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "name": "ArrayTo Bool",
+        "func": "var msg1 = {payload : msg.payload[0]};\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9c992809a0de96b0",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "link out 7",
+        "mode": "link",
+        "links": [
+            "1ea0c034657dbff5"
+        ],
+        "x": 485,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "1b76ebb287e8efb6",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "link out 8",
+        "mode": "link",
+        "links": [
+            "1ea0c034657dbff5"
+        ],
+        "x": 465,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "eb8a8ed3bb2ddcf9",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "link out 24",
+        "mode": "link",
+        "links": [
+            "1ea0c034657dbff5"
+        ],
+        "x": 485,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "ac0079c8771bdbaa",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "link out 25",
+        "mode": "link",
+        "links": [
+            "1ea0c034657dbff5"
+        ],
+        "x": 485,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "95fd0f9ad1db212c",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "link out 26",
+        "mode": "link",
+        "links": [
+            "1ea0c034657dbff5"
+        ],
+        "x": 485,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "54f565e80a220370",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "link out 27",
+        "mode": "link",
+        "links": [
+            "1ea0c034657dbff5"
+        ],
+        "x": 485,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "a37d15e981ddd478",
+        "type": "comment",
+        "z": "9a8c2e0178543307",
+        "name": "List Instruksi",
+        "info": "List instruksi :\n1. Buka Penutup Atas\n2. Buang sampah dan Tutup pintu\n3. Buka Penutup Bawah dan Keluarkan Bin\n4. Tekan tombol Lock, dan buka penutup bawah\n5. Masukkan kembali Bin container\n6. Tutup punutup bawah\n7. Menunggu verifikasi\n8. Timeout\n",
+        "x": 210,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "1ea0c034657dbff5",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "name": "link in 6 HMI Instruction",
+        "links": [
+            "9c992809a0de96b0",
+            "1b76ebb287e8efb6",
+            "eb8a8ed3bb2ddcf9",
+            "ac0079c8771bdbaa",
+            "95fd0f9ad1db212c",
+            "54f565e80a220370",
+            "ac314052c179fb54",
+            "9a13f2eebaf6f40c",
+            "be47cf9d9680e9b3",
+            "e4b285590b54821f"
+        ],
+        "x": 1535,
+        "y": 1320,
+        "wires": [
+            [
+                "5b9ad1063bc51d38"
+            ]
+        ]
+    },
+    {
+        "id": "c339d06416257b70",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "name": "link in 11",
+        "links": [
+            "f1b144d253d6f95f"
+        ],
+        "x": 1535,
+        "y": 1260,
+        "wires": [
+            [
+                "52b1bcc69b19e34e"
+            ]
+        ]
+    },
+    {
+        "id": "ac314052c179fb54",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "link out 28",
+        "mode": "link",
+        "links": [
+            "1ea0c034657dbff5"
+        ],
+        "x": 845,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "9a13f2eebaf6f40c",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "link out 22",
+        "mode": "link",
+        "links": [
+            "1ea0c034657dbff5"
+        ],
+        "x": 795,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "018f822371742c58",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "name": "",
+        "func": "const collectionSequence = flow.get(\"sequenceBottom\") ;\nconst closedoor0 = flow.get('closedoor0') || 0;\nif(msg.payload[0]==false)\n{\n    if (collectionSequence == 20 && closedoor0 == 1)\n    {\n        flow.set(\"closedoor\", 1);\n        flow.set('closedoor0', 0);\n    }\n\n    else (collectionSequence != 20) \n    {\n        flow.set('closedoor0', 0);\n    }\n    return msg;\n}\nelse if (collectionSequence == 20 && msg.payload[0]==true)\n{\n    flow.set('closedoor0',1);\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1520,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d421c1452de9d0dc",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Button Lock Write",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "5",
+        "quantity": "1",
+        "server": "377989b7a5f9b95b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1340,
+        "y": 1380,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1f2bb60ae5f4cb73",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "name": "link in 12",
+        "links": [
+            "9a2061a6368e0610"
+        ],
+        "x": 1195,
+        "y": 1400,
+        "wires": [
+            [
+                "d421c1452de9d0dc"
+            ]
+        ]
+    },
+    {
+        "id": "dc344d8a613cc169",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "name": "link in DO-0 Lock Top",
+        "links": [
+            "be6736307258e536",
+            "0b50769eaec27cad",
+            "6332e4dff647030e"
+        ],
+        "x": 1565,
+        "y": 220,
+        "wires": [
+            [
+                "f48a146bb068218c",
+                "e65f17e19624e8b0"
+            ]
+        ]
+    },
+    {
+        "id": "de01b304b98a129f",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "link out 29",
+        "mode": "link",
+        "links": [
+            "e52e38f79bf5c656",
+            "a9f672cdb0e394b2"
+        ],
+        "x": 905,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "901fab5a94a587f4",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "Sequence Top 30 - Verifikasi",
+        "func": "var verify = flow.get(\"verifikasi\")||0;\nvar sequence = flow.get(\"sequenceTop\");\nvar instructionNo;\n\nif (sequence == 30 && verify == 1)\n{\n    flow.set(\"sequenceTop\", 40);\n    flow.set(\"verifikasi\",0);\n}\nelse if(sequence == 30 && verify == 0)\n{\n    instructionNo = { payload: 7 };\n}\nreturn instructionNo;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1080,
+        "wires": [
+            [
+                "be47cf9d9680e9b3"
+            ]
+        ]
+    },
+    {
+        "id": "be47cf9d9680e9b3",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "link out 30",
+        "mode": "link",
+        "links": [
+            "1ea0c034657dbff5"
+        ],
+        "x": 535,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "1067aab766ca54a2",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "Sequence Top 100",
+        "func": "var sequence = flow.get(\"sequenceTop\") || 0;\nvar reopen = flow.get(\"reopen\")||0;\nvar reset,msg1;\nif (sequence==100 && reopen == 1 )\n{\n    flow.set(\"sequenceTop\",0);\n    flow.set(\"reopen\",0);\n    reset = { payload: false };\n}else if (sequence == 100 && reopen == 0) \n{\n\n    const reopen0 = flow.get('reopen0') || 0;\n    msg1 = reopen0 == 0 ? {payload : true} : null;\n}\nreturn [reset,msg1];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1200,
+        "wires": [
+            [
+                "c26aa91dc7cb6fe2"
+            ],
+            [
+                "26e9cb6ed0dc1e81"
+            ]
+        ]
+    },
+    {
+        "id": "2929bd54cc3be4dc",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Button reopen",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "6",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1330,
+        "y": 1560,
+        "wires": [
+            [
+                "6c4ef990d8eef6d2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "6c4ef990d8eef6d2",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "name": "",
+        "func": "\nconst disposeSequence = flow.get(\"sequenceTop\");\nconst reopen0 = flow.get('reopen0') || 0;\nif (msg.payload[0] == false) {\n    if (disposeSequence == 100 && reopen0 == 1) {\n        flow.set(\"reopen\", 1);\n        flow.set('reopen0', 0);\n    }\n\n    else (disposeSequence != 100)\n    {\n        flow.set('reopen0', 0);\n    }\n    return msg;\n}\nelse if (disposeSequence == 100 && msg.payload[0] == true) {\n    flow.set('reopen0', 1);\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1520,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c26aa91dc7cb6fe2",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "link out 31",
+        "mode": "link",
+        "links": [
+            "7fa209c774732b12"
+        ],
+        "x": 475,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "f79ba7be572c760c",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "name": "HMI Button reopen Write",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "",
+        "dataType": "Coil",
+        "adr": "6",
+        "quantity": "1",
+        "server": "377989b7a5f9b95b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 1350,
+        "y": 1440,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7fa209c774732b12",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "name": "link in 13",
+        "links": [
+            "c26aa91dc7cb6fe2",
+            "26e9cb6ed0dc1e81"
+        ],
+        "x": 1195,
+        "y": 1460,
+        "wires": [
+            [
+                "f79ba7be572c760c"
+            ]
+        ]
+    },
+    {
+        "id": "d9d5d74d3c796cf0",
+        "type": "change",
+        "z": "9a8c2e0178543307",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "verifikasi",
+                "pt": "flow",
+                "to": "1",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1150,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b941ae4a66911a79",
+        "type": "inject",
+        "z": "9a8c2e0178543307",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "0",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1090,
+        "y": 1100,
+        "wires": [
+            [
+                "d9d5d74d3c796cf0"
+            ]
+        ]
+    },
+    {
+        "id": "8203723e6ea34135",
+        "type": "debug",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "751e57929a85dca0",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "HMI Yellow Lamp Manual",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "11",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 310,
+        "y": 2160,
+        "wires": [
+            [
+                "d6d70621e62ed07b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d6d70621e62ed07b",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "Send",
+        "func": "\nif (msg.payload[0] == true) {\n    flow.set(\"manualYellowLamp\", true);\n\n} else {\n    flow.set(\"manualYellowLamp\", null);\n    return null;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 2120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8aa191ab42e5eaa6",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "DO-4 Green Lamp Manual",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "20",
+        "quantity": "1",
+        "server": "0b2eddef971589c1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 960,
+        "y": 2080,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f99b2e7bd0316046",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "HMI-Green Lamp",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "10",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 300,
+        "y": 2100,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "88dedd4ea8d6c8bb",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "Send",
+        "func": "var msg1 = {payload: msg.payload[0] ?  1:0 };\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 2080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7d8907ce444db571",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "DO-2 Red Lamp Manual",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "18",
+        "quantity": "1",
+        "server": "0b2eddef971589c1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 950,
+        "y": 2040,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "62e69b92a07afdd5",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "HMI Red Lamp Manual",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "9",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 300,
+        "y": 2040,
+        "wires": [
+            [
+                "7bcb92b52d859ff5"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7bcb92b52d859ff5",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "Send",
+        "func": "var checkData = flow.get(\"ManualRedLamp\");\n\nif (msg.payload[0] == true) {\n    flow.set(\"ManualRedLamp\", true);\n\n} else {\n    flow.set(\"ManualRedLamp\", null);\n    return null;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 2040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "47ccfbc16c73d314",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "DO-6 Bottom Door Manual",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "22",
+        "quantity": "1",
+        "server": "0b2eddef971589c1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 960,
+        "y": 2000,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3f4d1b9b08272530",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "HMI-Bottom Door Manual",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "8",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 310,
+        "y": 2000,
+        "wires": [
+            [
+                "64e2e6e0c44b4424"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "64e2e6e0c44b4424",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "Send",
+        "func": "var msg1 = { payload: msg.payload[0] ? 1 : 0 };\nconst lastValue = flow.get(\"lastBottomDoor\");\nif (lastValue != msg1.payload) {\n    flow.set(\"lastBottomDoor\", msg1.payload);\n    return msg1;\n}\nelse {\n    return null;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 2000,
+        "wires": [
+            [
+                "47ccfbc16c73d314"
+            ]
+        ]
+    },
+    {
+        "id": "ce3778f955eb7384",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "DO-0 Top Door Manual",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "16",
+        "quantity": "1",
+        "server": "0b2eddef971589c1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 950,
+        "y": 1960,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "830617e48013247b",
+        "type": "modbus-read",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "HMI Top Door Manual",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "7",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "377989b7a5f9b95b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 300,
+        "y": 1960,
+        "wires": [
+            [
+                "5b1df856c582983d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5b1df856c582983d",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "Send",
+        "func": "var msg1 = {payload: msg.payload[0] ?  1:0 };\nconst lastValue = flow.get(\"lastTopDoor\");\nif (lastValue != msg1.payload)\n{\n    flow.set(\"lastTopDoor\",msg1.payload);\n    return msg1;\n}\nelse\n{\n    return null;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 1960,
+        "wires": [
+            [
+                "ce3778f955eb7384"
+            ]
+        ]
+    },
+    {
+        "id": "9a2061a6368e0610",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "330868a749ec4f85",
+        "name": "link out 32",
+        "mode": "link",
+        "links": [
+            "1f2bb60ae5f4cb73"
+        ],
+        "x": 475,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "26e9cb6ed0dc1e81",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "1d5a640ec1e48556",
+        "name": "link out 33",
+        "mode": "link",
+        "links": [
+            "7fa209c774732b12"
+        ],
+        "x": 425,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "ce5508344acf10d6",
+        "type": "debug",
+        "z": "9a8c2e0178543307",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1940,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "1e9082d0416691f2",
+        "type": "modbus-write",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "DO-3 Yellow Lamp Manual",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "19",
+        "quantity": "1",
+        "server": "0b2eddef971589c1",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "x": 960,
+        "y": 2140,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "08b762371375061a",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "link in 14",
+        "links": [
+            "ae1f0005cb1ccdcb"
+        ],
+        "x": 715,
+        "y": 2040,
+        "wires": [
+            [
+                "7d8907ce444db571"
+            ]
+        ]
+    },
+    {
+        "id": "a9f672cdb0e394b2",
+        "type": "link in",
+        "z": "9a8c2e0178543307",
+        "g": "fd65e6887229c19a",
+        "name": "link in 15",
+        "links": [
+            "de01b304b98a129f"
+        ],
+        "x": 715,
+        "y": 2120,
+        "wires": [
+            [
+                "1e9082d0416691f2"
+            ]
+        ]
+    },
+    {
+        "id": "cfd49ed0e70f05f5",
+        "type": "comment",
+        "z": "9a8c2e0178543307",
+        "name": "List IP",
+        "info": "list IP address molding\nIP Scanner local : 192.168.250.100\nip Scanner server : 10.89.46.133/23\n\nIP  adam 1 : 192.168.250.20\nIP  scale 1 : 192.168.250.21\nIP  HMI 1 : 192.168.250.22\n\nIP  adam 2 : 192.168.250.30\nIP  scale 2 : 192.168.250.31\nIP  HMI 2 : 192.168.250.32\n\nIP  adam 3 : 192.168.250.40\nIP  scale 3 : 192.168.250.41\nIP  HMI 3 : 192.168.250.42",
+        "x": 350,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "26da2f5e8eef9999",
+        "type": "http in",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "",
+        "url": "/verifikasi",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 250,
+        "y": 480,
+        "wires": [
+            [
+                "fd515a5796d2f3f6"
+            ]
+        ]
+    },
+    {
+        "id": "41e551d5698d25d6",
+        "type": "http response",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "",
+        "statusCode": "200",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 580,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "fd515a5796d2f3f6",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "function 6",
+        "func": "var sequence = flow.get(\"sequenceTop\")\n\nvar sequencebottom = flow.get(\"sequenceBottom\");\nif (sequence==30 || sequencebottom==50)\n{\n    flow.set(\"verifikasi\", Number(msg.payload.verifikasi));\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 480,
+        "wires": [
+            [
+                "41e551d5698d25d6"
+            ]
+        ]
+    },
+    {
+        "id": "b87f90e7fcd534b5",
+        "type": "http in",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "",
+        "url": "/verifikasi-check",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 260,
+        "y": 540,
+        "wires": [
+            [
+                "b90c576fa2327a86"
+            ]
+        ]
+    },
+    {
+        "id": "b90c576fa2327a86",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "get_verfikasi",
+        "func": "var verifikasi_check = flow.get(\"verifikasi\") || 0;\n\nmsg.payload = verifikasi_check;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 540,
+        "wires": [
+            [
+                "d58a1150262070c9"
+            ]
+        ]
+    },
+    {
+        "id": "d58a1150262070c9",
+        "type": "http response",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "",
+        "statusCode": "200",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 640,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "4a326bb29e094691",
+        "type": "http in",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "",
+        "url": "/resetBin",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 230,
+        "y": 640,
+        "wires": [
+            [
+                "7f03e1717e3498fc"
+            ]
+        ]
+    },
+    {
+        "id": "7f03e1717e3498fc",
+        "type": "function",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "resetBin",
+        "func": "var msg1,msg2,msg3;\n\nmsg = {payload: \"1\"};\nmsg1 = {payload: \"\"};\nmsg2 = {payload: false};\nmsg3 = {payload: false};\nflow.set(\"isRunning\",false);\nflow.set(\"sequenceTop\",0);\nflow.set(\"lastBadgeNumber\",\"\")\nflow.set(\"lastFromBin\",\"\")\n\nreturn [msg,msg1,msg2,msg3];",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 640,
+        "wires": [
+            [
+                "d5f3780eec96a6a5"
+            ],
+            [
+                "e4b285590b54821f"
+            ],
+            [
+                "6332e4dff647030e"
+            ],
+            [
+                "fd085413a5888960"
+            ]
+        ]
+    },
+    {
+        "id": "d5f3780eec96a6a5",
+        "type": "http response",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "",
+        "statusCode": "200",
+        "headers": {
+            "content-type": "application/json"
+        },
+        "x": 620,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "e4b285590b54821f",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "",
+        "links": [
+            "1ea0c034657dbff5"
+        ],
+        "x": 575,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "6332e4dff647030e",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "link out 13",
+        "mode": "link",
+        "links": [
+            "dc344d8a613cc169"
+        ],
+        "x": 625,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "fd085413a5888960",
+        "type": "link out",
+        "z": "9a8c2e0178543307",
+        "g": "9e8f089b5f33e7f4",
+        "name": "link out 14",
+        "mode": "link",
+        "links": [
+            "3aed535b319f3490"
+        ],
+        "x": 565,
+        "y": 680,
+        "wires": []
     }
 ]
